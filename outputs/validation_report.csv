@@ -1,0 +1,5 @@
+collection,rows_in,fixed,dropped_invalid,dropped_family,dropped_bbox,dropped_duplicate,dropped_attr,rows_out,geom_types,all_valid
+villages,361,0,0,0,0,0,0,361,Point,True
+rivers,38,0,0,0,0,0,0,38,LineString,True
+water_bodies,10,0,0,0,0,0,0,10,Polygon,True
+farmland,15,0,0,0,0,0,0,15,Polygon,True

@@ -1,0 +1,13 @@
+pymongo>=4.6
+python-dotenv>=1.0
+shapely>=2.0
+pyproj>=3.6
+geopandas>=1.0
+osmnx>=2.0
+pandas>=2.1
+numpy>=1.26
+requests>=2.31
+folium>=0.17
+matplotlib>=3.8
+certifi
+pytest>=8.0

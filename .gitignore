@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+cache/
+data/raw/
+data/processed/
+outputs/bench_*
+*.egg-info/
+
+# AI assistant context & tooling — not part of the project deliverable
+CLAUDE.md
+.claude/
+.cursor/
+.cursorrules
+.aider*
+.github/copilot-instructions.md
+MEMORY.md
+GEMINI.md
+AGENTS.md
