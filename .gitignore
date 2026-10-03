@@ -1,21 +1,28 @@
+# Secrets
 .env
+
+# Python
 .venv/
 __pycache__/
 *.pyc
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 .ipynb_checkpoints/
 cache/
+
+# Data and generated artefacts (regenerate with scripts/01 and 02)
 data/raw/
 data/processed/
 outputs/bench_*
-*.egg-info/
 
-# AI assistant context & tooling — not part of the project deliverable
-CLAUDE.md
-.claude/
-.cursor/
-.cursorrules
-.aider*
-.github/copilot-instructions.md
-MEMORY.md
-GEMINI.md
-AGENTS.md
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
