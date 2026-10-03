@@ -1,48 +1,53 @@
-"""Single source of truth for region, CRS codes, collection names and env config.
-
-Every other module imports its constants from here. Changing the region means
-changing BBOX *and* CRS_METRIC (see utm_epsg below).
-"""
-
-from __future__ import annotations
-
 import os
-from math import floor
 
+from math import floor
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# --- Study region -----------------------------------------------------------
-REGION_NAME = "The Nilgiris"
-BBOX = (76.20, 11.10, 77.10, 11.70)  # (west, south, east, north) in WGS84 degrees
+REGION_NAME="The Nilgiris"
+#Bounding box min Longitude, min Latitude, max Longitude, max Latitude
+BBOX=(76.20,11.10,77.10,11.70)  #(west,south,east,north) in wgs84 (world geodetic system 1984 standard global coordinate reference system used by GPS and most web maps.)
+#Coordinates: positions are given as latitude and longitude in decimal degrees (EPSG code 4326).
+#Longitude: -180 to 180 (west to east)
+#Latitude: -90 to 90 (south to north)
+#West = 76.20°E (min longitude)
+#South = 11.10°N (min latitude)
+#East = 77.10°E (max longitude)
+#North = 11.70°N (max latitude)
 
-# --- Coordinate reference systems ------------------------------------------
-CRS_WGS84 = "EPSG:4326"   # storage CRS — what MongoDB GeoJSON requires
-CRS_METRIC = "EPSG:32643"  # WGS84 / UTM 43N — all buffers, areas and unions
+#osmnx (osm openstreetmap + nx networkx )
+#Coordinate Reference System — the framework that tells GIS software how coordinates in your data map to real locations on Earth
+#the two coordinate system
+CRS_WGS84 = "EPSG:4326"    # storage CRS — degrees; what MongoDB requires
+CRS_METRIC = "EPSG:32643"  # UTM zone 43N — metres; for buffers, areas, distances
 
-# --- Analysis parameters ----------------------------------------------------
+#analysis parameter
+
 FIRE_SEASON = ("2024-01-01", "2024-05-31")
-HOTSPOT_BUFFER_M = 1000      # burn-risk buffer around each hotspot
+HOTSPOT_BUFFER_M = 1000      # burn-risk buffer around each fire hotspot
 HABITAT_GAP_CLOSE_M = 50     # close small gaps between adjacent forest polygons
-HABITAT_BUFFER_M = 2000      # habitat block -> habitat_buffer zone
-NEAR_VILLAGE_M = 5000        # $nearSphere radius villages <-> hotspots
-NEAR_ROAD_M = 500            # $nearSphere radius sightings <-> roads
-MIN_HABITAT_BLOCK_KM2 = 1.0  # drop habitat fragments smaller than this
-SIMPLIFY_TOLERANCE_M = 10    # polygon simplification in the metric CRS
-COORD_PRECISION = 6          # decimal places kept on stored coordinates
-GBIF_MAX_UNCERTAINTY_M = 1000
+HABITAT_BUFFER_M = 2000       # habitat block grown outward -> habitat_buffer zone
+NEAR_VILLAGE_M = 5000        # search radius: villages around a hotspot
+NEAR_ROAD_M = 500            # search radius: roads around a sighting
 
-EARTH_RADIUS_KM = 6378.1  # for $centerSphere: radians = km / EARTH_RADIUS_KM
+#note these are in meters _m specify meters
+SIMPLIFY_TOLERANCE_M = 10     # polygon simplification, applied in the metric CRS
+COORD_PRECISION = 6           # decimal places kept on stored coordinates
+GBIF_MAX_UNCERTAINTY_M = 1000 # discard sightings vaguer than this
+EARTH_RADIUS_KM = 6378.1      # $centerSphere wants radians = km / this  $maxDistance with $nearSphere on GeoJSON is in metres, but $centerSphere takes a radius in radians.
 
-# --- Database ---------------------------------------------------------------
+#secerets
+
 MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
 MONGODB_DB = os.getenv("MONGODB_DB", "forestgeo")
-FIRMS_MAP_KEY = os.getenv("FIRMS_MAP_KEY")
+FIRMS_MAP_KEY = os.getenv("FIRMS_MAP_KEY") #this is NASA FIRMS(fire information for resource management system)
 
-# --- Collections ------------------------------------------------------------
-# name -> expected geometry family ("point" | "line" | "polygon")
-COLLECTIONS: dict[str, str] = {
+#collection
+
+
+COLLECTIONS = {
     "villages": "point",
     "fire_hotspots": "point",
     "sightings": "point",
@@ -54,30 +59,29 @@ COLLECTIONS: dict[str, str] = {
     "farmland": "polygon",
     "derived_zones": "polygon",
 }
-SOURCE_COLLECTIONS = [c for c in COLLECTIONS if c != "derived_zones"]
-BENCH_COLLECTION = "bench_points"
 
-# --- Paths ------------------------------------------------------------------
-from pathlib import Path  # noqa: E402  (kept next to the paths it defines)
+#these collectoins define the validation of datatype for each theme/location type since OSM is messy and provide a lot of data for a single request so to remove unnecessay we go for this
+#GIS (Geographic Information System)
 
+#paths
 ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
 OUTPUT_DIR = ROOT / "outputs"
 
 
+#helper function
+#UTM (Universal Transverse Mercator) used to measue the area in meters ratehr than lat or long
+#India spans six UTM zones (42N–47N) in the WGS 84 datum.wgs 84 84 is teh version
+#epsg is a registry to indentify a utm of a country
+#these both are to ensure the crs_metrix are correct
 def utm_epsg(lon: float, lat: float) -> str:
-    """EPSG code of the UTM zone containing (lon, lat). Used to sanity-check CRS_METRIC."""
+    """EPSG code of the UTM zone containing (lon, lat)."""
     zone = floor((lon + 180) / 6) + 1
     return f"EPSG:{(32600 if lat >= 0 else 32700) + zone}"
 
-
+#used to get regios midpoint
 def bbox_centre() -> tuple[float, float]:
     """(lon, lat) centre of BBOX."""
-    w, s, e, n = BBOX
-    return (w + e) / 2, (s + n) / 2
-
-
-def ensure_dirs() -> None:
-    for d in (RAW_DIR, PROCESSED_DIR, OUTPUT_DIR):
-        d.mkdir(parents=True, exist_ok=True)
+    west, south, east, north = BBOX
+    return (west + east) / 2, (south + north) / 2

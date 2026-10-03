@@ -22,16 +22,17 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 cp .env.example .env        # fill in MONGODB_URI and FIRMS_MAP_KEY
 
-python scripts/00_check_connection.py
-python scripts/01_fetch_data.py
-python scripts/02_clean_validate.py
-python scripts/03_load_mongo.py
-python scripts/04_create_indexes.py
-python scripts/05_core_queries.py
-python scripts/06_build_unions.py
-python scripts/07_cross_theme.py
-python scripts/08_benchmark.py
-python scripts/09_build_map.py      # → outputs/forestgeo_map.html
+# run in this order — each step consumes the previous step's output
+python scripts/check_connection.py
+python scripts/fetch_data.py
+python scripts/clean_validate.py
+python scripts/load_mongo.py
+python scripts/create_indexes.py
+python scripts/core_queries.py
+python scripts/build_unions.py
+python scripts/cross_theme.py
+python scripts/benchmark.py
+python scripts/build_map.py          # → outputs/forestgeo_map.html
 ```
 
 ## Data credits
