@@ -8,4 +8,4 @@ protected_areas,9,Polygon:6|MultiPolygon:3,True,3,"_id_,geometry_2dsphere,name_1
 forests,119,Polygon:113|MultiPolygon:6,True,2,"_id_,geometry_2dsphere"
 water_bodies,901,Polygon:901,True,2,"_id_,geometry_2dsphere"
 farmland,811,Polygon:808|MultiPolygon:3,True,2,"_id_,geometry_2dsphere"
-derived_zones,4,MultiPolygon:4,True,3,"_id_,geometry_2dsphere,zone_type_1"
+derived_zones,0,-,False,0,-

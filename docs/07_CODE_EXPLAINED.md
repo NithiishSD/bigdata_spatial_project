@@ -1982,7 +1982,7 @@ a rejection is diagnosable rather than a number.
 **JSONL** (JSON Lines) is one JSON object per line: appendable, and readable
 line-by-line without parsing the whole file.
 
-In this project the count was **0 rejected out of 46,429** — which is the expected result
+In this project the count was **0 rejected out of 46,208** — which is the expected result
 when `clean.py` has done its job, and is worth stating as a verification of it.
 
 ### Block 4 — `geometry_types()` and the aggregation pipeline
@@ -2553,6 +2553,50 @@ rather than implying sub-millisecond precision that was not measured.
 Also note `random.Random(42)` — a **fixed seed** means the synthetic points are identical
 on every run, so the benchmark is reproducible.
 
+### Running the same benchmark on Atlas — the clearest result in the project
+
+The real-collection comparison was re-run against a MongoDB Atlas M0 cluster in Mumbai.
+Two things emerged that a local-only run could never have shown.
+
+**1. `totalDocsExamined` is identical on both engines.**
+
+| query | docs examined, local | docs examined, Atlas |
+|---|---|---|
+| `sightings $geoWithin` protected area | 744 | 744 |
+| `fire_hotspots $geoWithin` protected area | 29 | 29 |
+| `transport $geoIntersects` protected area | 277 | 277 |
+| `villages $geoWithin` burn footprint | 414 | 414 |
+
+Same data, same query plan, same work — on different hardware in a different country.
+That is why the report leads with documents examined rather than milliseconds: it is
+deterministic and hardware-independent, whereas timing is neither.
+
+**2. Wall-clock timing on Atlas is useless, and the numbers prove it.**
+
+Measuring the same query from Python with a stopwatch, versus `executionTimeMillis`:
+
+| mode | server time | wall-clock | network overhead |
+|---|---|---|---|
+| indexed | **0 ms** | 97.3 ms | 97.3 ms |
+| COLLSCAN | **5 ms** | 98.1 ms | 93.1 ms |
+
+A stopwatch reports **97.3 ms versus 98.1 ms** — a difference well inside the noise, from
+which the honest conclusion would be "the index makes no difference". It is wrong. The
+round trip to Mumbai is roughly 95 ms, and it swamps a 5 ms query completely.
+
+`explain("executionStats")` measures inside the server and reports 0 ms against 5 ms —
+the real result. This is the concrete justification for the project rule that benchmarks
+must use server-side timing rather than wall-clock alone.
+
+The `transport $geoIntersects` case is the clearest on Atlas: **24 ms indexed versus
+763 ms scanned, a 32× gain** across 37,665 LineStrings — closely matching the 29.7×
+measured locally, because the underlying work is the same.
+
+The 250,000-point synthetic scale test was **not** re-run on Atlas. Pushing a quarter of
+a million documents over the network into a shared, throttled free tier would measure the
+upload, not the index. It is stated in the report as a locally-measured result, which is
+the appropriate place for a controlled scale experiment.
+
 ### Interview answers — `benchmark.py`
 
 **"Why use `explain()` instead of timing the query in Python?"**
@@ -2575,9 +2619,17 @@ The correct conclusion is that indexes accelerate selective queries, which is wh
 planners sometimes choose a scan deliberately.
 
 **"Which number matters more, time or documents examined?"**
-`totalDocsExamined`, because it is hardware-independent and deterministic. Timing varies
-with cache state, memory and competing load; documents examined measures the work the
-query actually required, and it is what scales with collection size.
+`totalDocsExamined`, because it is hardware-independent and deterministic — it came out
+identical on a local server and on an Atlas cluster in Mumbai. Timing varies with cache
+state, memory, competing load and, on Atlas, network latency.
+
+**"You ran this on Atlas as well. What changed?"**
+The query plans and documents examined were identical; only the timings moved. The
+instructive part was the wall-clock comparison: measured from Python, the indexed query
+took 97.3 ms and the collection scan 98.1 ms, which would suggest the index is worthless.
+It is an artefact — about 95 ms of that is the round trip to Mumbai. Server-side
+`executionTimeMillis` reports 0 ms against 5 ms, the real difference. It is the clearest
+demonstration in the project of why benchmarks must be measured inside the server.
 
 ---
 
@@ -2740,7 +2792,18 @@ Run on 2026-10-04, local MongoDB 8.0.32, Python 3.14.
 | farmland | Polygon | 812 | 811 | |
 | fire_hotspots | Point | 1,765 | 1,564 | 201 low-confidence dropped |
 | sightings | Point | 2,670 | 2,661 | 72 species; tiered by precision |
-| **total** | | **46,779** | **46,429** | **0 invalid, 0 rejected by MongoDB** |
+| **total** | | **46,779** | **46,208** | **0 invalid, 0 rejected by MongoDB** |
+
+The reduction happens in two distinct steps, and the report should state both:
+
+| stage | features | removed |
+|---|---|---|
+| raw files on disk | 46,779 | — |
+| after deduplicating on the OSM `id` | 46,560 | 219 duplicates |
+| valid output | 46,208 | 352 by cleaning |
+
+The 219 duplicates are the ones a layer receives when its tag spec lists several keys and
+Overpass returns the same element once per key. They never reach the database.
 
 ### Derived zones (Shapely → MongoDB)
 
@@ -2900,7 +2963,7 @@ What the project demonstrates technically:
 
 1. **All three GeoJSON vector types**, stored and indexed — Points (villages, hotspots,
    sightings), LineStrings (roads, rivers), Polygons (forests, reserves, water).
-2. **Validation before storage.** 46,779 raw features reduced to 46,429 valid ones, with
+2. **Validation before storage.** 46,779 raw features reduced to 46,208 valid ones, with
    every discard counted by reason, and **zero** rejected by MongoDB at insert.
 3. **All four spatial operators**, each used where it is correct — `$geoIntersects` for
    lines crossing areas, `$geoWithin` + `$centerSphere` for counting in a radius,

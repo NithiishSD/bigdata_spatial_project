@@ -1,0 +1,3 @@
+mode,returned,server_ms,wall_ms,network_overhead_ms
+indexed,114,0,97.3,97.3
+COLLSCAN,114,5,98.1,93.1

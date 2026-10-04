@@ -1,0 +1,11 @@
+query,collection,collection_size,mode,stage,n_returned,docs_examined,keys_examined,millis_median
+sightings  $geoWithin protected_area,sightings,2661,indexed,IXSCAN,533,744,766,6
+sightings  $geoWithin protected_area,sightings,2661,COLLSCAN (hint $natural),COLLSCAN,533,2661,0,10
+fire_hotspots $geoWithin protected_area,fire_hotspots,1564,indexed,IXSCAN,17,29,44,1
+fire_hotspots $geoWithin protected_area,fire_hotspots,1564,COLLSCAN (hint $natural),COLLSCAN,17,1564,0,3
+transport  $geoIntersects protected_area,transport,37665,indexed,IXSCAN,124,277,1585,24
+transport  $geoIntersects protected_area,transport,37665,COLLSCAN (hint $natural),COLLSCAN,124,37665,0,763
+villages   $geoWithin burn_footprint,villages,421,indexed,IXSCAN,111,414,417,29
+villages   $geoWithin burn_footprint,villages,421,COLLSCAN (hint $natural),COLLSCAN,111,421,0,24
+sightings  $geoWithin 5km circle,sightings,2661,indexed,IXSCAN,114,131,149,0
+sightings  $geoWithin 5km circle,sightings,2661,COLLSCAN (hint $natural),COLLSCAN,114,2661,0,5

@@ -78,10 +78,10 @@ db.transport.aggregate([{$group: {_id: "$geometry.type", n: {$sum: 1}}}])
 db.villages.getIndexes()
 ```
 
-> "Ten collections, 46,429 documents. All three GeoJSON types — Points for villages,
+> "Ten collections, 46,208 documents. All three GeoJSON types — Points for villages,
 > hotspots and sightings; LineStrings for 37,665 roads and rivers; Polygons for forests
 > and reserves. Every geometry validated in Shapely before insert, and every collection
-> carries a 2dsphere index. 46,779 raw features went in, 46,429 came out valid, and
+> carries a 2dsphere index. 46,779 raw features went in, 46,208 came out valid, and
 > MongoDB rejected zero."
 
 ### 1:15 — the four operations, live (1 min)
@@ -235,7 +235,7 @@ connections three times during development.
 | | |
 |---|---|
 | study area | 6,519 km², 54% forest |
-| raw → clean | 46,779 → 46,429 features, **0 invalid, 0 rejected** |
+| raw → clean | 46,779 → 46,208 features, **0 invalid, 0 rejected** |
 | collections | 10, all 2dsphere-indexed |
 | hotspots | 1,564 (Jan–May 2024, 201 low-confidence dropped) |
 | sightings | 2,661, 72 species |
@@ -246,6 +246,8 @@ connections three times during development.
 | most exposed village | Thoraihatty — 239 hotspots within 5 km |
 | most fires | Sathyamangalam Tiger Reserve, 52 |
 | most sightings | Mudumalai, 533 (1.589 / km²) |
-| index gain | **180×** at 0.2% selectivity, **1.3×** at 25% |
+| index gain (local, 250k synthetic) | **180×** at 0.2% selectivity, **1.3×** at 25% |
+| index gain (Atlas, real transport) | **32×** — 24 ms indexed vs 763 ms scanned |
+| Atlas network overhead | **~95 ms per query** — wall-clock shows 97.3 vs 98.1 ms, i.e. nothing |
 | obscured records | 24.7%, incl. 48 tiger and 170 elephant |
 | sightings near roads | 88.7% within 500 m (observer bias) |

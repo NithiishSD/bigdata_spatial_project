@@ -53,7 +53,7 @@ nano .env
 .venv/bin/python scripts/create_indexes.py       # confirm every 2dsphere index exists
 ```
 
-Expect `46,429 documents across 9 collections`, then 4 derived zones.
+Expect `46,208 documents across 9 collections`, then 4 derived zones.
 
 To switch back to local: `cp .env.local .env`.
 
@@ -128,7 +128,7 @@ If a URI ever does leak: rotate the password in *Atlas → Database Access* imme
 | time | section | the line to land |
 |---|---|---|
 | 0:00 | title cell | "Four pressures, four unrelated datasets, one spatial database." |
-| 0:30 | §3 what is in the database | "46,429 documents, all three GeoJSON types, every collection 2dsphere-indexed, zero rejected by MongoDB." |
+| 0:30 | §3 what is in the database | "46,208 documents, all three GeoJSON types, every collection 2dsphere-indexed, zero rejected by MongoDB." |
 | 1:15 | §4 the four operations | "I used `$geoIntersects` for roads crossing Mudumalai — a road that exits is not *inside*, so `$geoWithin` returns a much smaller number." |
 | 2:15 | §5 the union | "MongoDB cannot build geometry. The union happens in Shapely and comes back as a queryable collection." |
 | 3:00 | §5 validation + §6 cross-theme | "79 of 421 villages. And MongoDB's own two-predicate form returns 79 too." |

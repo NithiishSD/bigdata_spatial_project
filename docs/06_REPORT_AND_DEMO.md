@@ -24,7 +24,7 @@ e.g. "111 of 421 villages (26 %) lie inside the 1 km burn-risk footprint; 79 of 
 2 km of the continuous habitat block, forming the 862 km² critical zone."
 
 **Real headline numbers (2026-10-04 run)** — use these, not estimates:
-46,779 raw features → 46,429 valid, 0 rejected · 9 protected areas · 1,564 hotspots ·
+46,779 raw features → 46,208 valid, 0 rejected · 9 protected areas · 1,564 hotspots ·
 2,661 sightings (72 species) · habitat block 119 polygons → 23 blocks, 3,520 km² ·
 burn footprint 1,051 km² · critical zone 862 km² · 79 of 421 villages at risk ·
 index 180× faster at 0.2 % selectivity, 1.3× at 25 %.
