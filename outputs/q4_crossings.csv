@@ -1,0 +1,38 @@
+target_type,target,target_area_km2,feature,n_crossing
+protected_area,Sathyamangalam WLS/Tiger Reserve,327.95,road,14
+protected_area,Sathyamangalam WLS/Tiger Reserve,327.95,track,6
+protected_area,Sathyamangalam WLS/Tiger Reserve,327.95,railway,0
+protected_area,Sathyamangalam WLS/Tiger Reserve,327.95,river,7
+protected_area,Silent Valley National Park ESZ (Proposed),108.23,road,54
+protected_area,Silent Valley National Park ESZ (Proposed),108.23,track,34
+protected_area,Silent Valley National Park ESZ (Proposed),108.23,railway,0
+protected_area,Silent Valley National Park ESZ (Proposed),108.23,river,72
+protected_area,Silent Valley National Park,80.41,road,5
+protected_area,Silent Valley National Park,80.41,track,0
+protected_area,Silent Valley National Park,80.41,railway,0
+protected_area,Silent Valley National Park,80.41,river,12
+protected_area,Karimpuzha Wildlife Sanctuary ESZ (Proposed),44.05,road,10
+protected_area,Karimpuzha Wildlife Sanctuary ESZ (Proposed),44.05,track,8
+protected_area,Karimpuzha Wildlife Sanctuary ESZ (Proposed),44.05,railway,0
+protected_area,Karimpuzha Wildlife Sanctuary ESZ (Proposed),44.05,river,34
+protected_area,Karimpuzha Wildlife Sanctuary,204.93,road,8
+protected_area,Karimpuzha Wildlife Sanctuary,204.93,track,5
+protected_area,Karimpuzha Wildlife Sanctuary,204.93,railway,0
+protected_area,Karimpuzha Wildlife Sanctuary,204.93,river,291
+protected_area,Mukurthi National Park,78.69,road,6
+protected_area,Mukurthi National Park,78.69,track,17
+protected_area,Mukurthi National Park,78.69,railway,0
+protected_area,Mukurthi National Park,78.69,river,122
+protected_area,Bandipur National Park,257.69,road,13
+protected_area,Bandipur National Park,257.69,track,33
+protected_area,Bandipur National Park,257.69,railway,0
+protected_area,Bandipur National Park,257.69,river,4
+protected_area,Mudumalai National Park,335.47,road,104
+protected_area,Mudumalai National Park,335.47,track,20
+protected_area,Mudumalai National Park,335.47,railway,0
+protected_area,Mudumalai National Park,335.47,river,20
+protected_area,(unnamed),113.22,road,57
+protected_area,(unnamed),113.22,track,3
+protected_area,(unnamed),113.22,railway,0
+protected_area,(unnamed),113.22,river,94
+water_bodies (first 200),all,,transport,109

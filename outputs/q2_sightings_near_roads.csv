@@ -1,0 +1,963 @@
+gbif_id,species,class,iucn_category,uncertainty_m,near_road,nearest_road_m,road_kind,road_name
+5036798258,Funambulus palmarum,Mammalia,LC,244.0,True,152.9,road,Catherine Falls Road
+5036942070,Macaca radiata,Mammalia,VU,256.0,True,192.4,road,
+5063661368,Macaca radiata,Mammalia,VU,5.0,True,6.6,road,
+5108350775,Herpestes edwardsi,Mammalia,,7.0,True,117.5,track,
+5152992944,Ratufa indica,Mammalia,LC,209.0,True,7.6,road,Coonoor - Kattabettu Road
+5760307991,Ratufa indica,Mammalia,LC,210.0,True,55.2,road,
+6168472781,Semnopithecus priam,Mammalia,NT,21.0,False,,,
+6168475508,Herpestes smithii,Mammalia,LC,20.0,True,111.6,road,
+6168477051,Martes gwatkinsii,Mammalia,VU,5.0,False,,,
+6470190546,Paradoxurus jerdoni,Mammalia,LC,210.0,True,12.9,road,Avalanche Road
+5069844166,Macaca radiata,Mammalia,VU,27.0,True,16.1,railway,Nilgiri Mountain Railway
+5076931779,Macaca radiata,Mammalia,VU,9.0,True,24.2,road,
+5076997028,Macaca radiata,Mammalia,VU,215.0,True,85.2,road,
+5077048936,Sus scrofa,Mammalia,,215.0,True,85.2,road,
+5077048946,Axis axis,Mammalia,LC,215.0,True,85.2,road,
+5077126113,Sus scrofa,Mammalia,,215.0,True,85.2,road,
+5087476588,Axis axis,Mammalia,LC,2.0,True,0.8,road,
+5087476596,Macaca radiata,Mammalia,VU,4.0,True,32.9,road,
+5087556516,Ratufa indica,Mammalia,LC,4.0,True,78.3,road,
+5087564640,Ratufa indica,Mammalia,LC,4.0,True,13.9,road,Botanical Garden
+5087568582,Lepus nigricollis,Mammalia,LC,2.0,True,4.8,road,
+5087571395,Funambulus palmarum,Mammalia,LC,2.0,True,220.4,road,
+5087614591,Lepus nigricollis,Mammalia,LC,780.0,True,0.4,road,
+5087615322,Axis axis,Mammalia,LC,2.0,True,0.6,road,
+5087655599,Funambulus palmarum,Mammalia,LC,4.0,True,69.5,road,
+5087664396,Herpestes edwardsi,Mammalia,,2.0,True,3.5,road,
+5087717539,Sus scrofa,Mammalia,,2.0,True,4.4,road,
+5087730463,Herpestes edwardsi,Mammalia,,4.0,True,32.1,road,
+5087736484,Ratufa indica,Mammalia,LC,4.0,True,100.0,road,
+5087741649,Ratufa indica,Mammalia,LC,215.0,True,85.2,road,
+5088011525,Funambulus palmarum,Mammalia,LC,215.0,True,85.2,road,
+5760513848,Paradoxurus jerdoni,Mammalia,LC,19.0,True,107.0,track,
+6168472344,Funambulus sublineatus,Mammalia,VU,20.0,False,,,
+6168472382,Ratufa indica,Mammalia,LC,9.0,True,0.3,road,
+6168472461,Macaca radiata,Mammalia,VU,939.0,True,23.8,road,Coonoor-Mettupalayam Road
+6168472464,Muntiacus muntjak,Mammalia,LC,13.0,True,342.0,road,
+6168472466,Ratufa indica,Mammalia,LC,12.0,True,302.0,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168472514,Macaca radiata,Mammalia,VU,14.0,True,20.9,road,Coonoor-Mettupalayam Road
+6168472726,Bos frontalis,Mammalia,VU,12.0,False,,,
+6168472745,Muntiacus muntjak,Mammalia,LC,21.0,False,,,
+6168472804,Muntiacus muntjak,Mammalia,LC,21.0,True,226.6,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168472813,Ratufa indica,Mammalia,LC,12.0,True,9.1,road,
+6168473110,Semnopithecus priam,Mammalia,NT,6.0,True,489.9,road,
+6168473142,Ratufa indica,Mammalia,LC,5.0,True,3.6,road,
+6168473182,Macaca radiata,Mammalia,VU,10.0,True,6.1,road,
+6168473245,Bos frontalis,Mammalia,VU,16.0,True,0.5,road,Coonoor-Mettupalayam Road
+6168473293,Bos frontalis,Mammalia,VU,36.0,True,289.8,road,
+6168473328,Macaca radiata,Mammalia,VU,18.0,True,17.8,railway,Nilgiri Mountain Railway
+6168473509,Funambulus sublineatus,Mammalia,VU,18.0,True,369.3,road,
+6168473516,Ratufa indica,Mammalia,LC,13.0,True,41.9,road,
+6168473566,Macaca radiata,Mammalia,VU,300.0,True,6.7,road,Coonoor-Mettupalayam Road
+6168473606,Bos frontalis,Mammalia,VU,12.0,True,232.5,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473865,Macaca radiata,Mammalia,VU,14.0,True,12.7,road,Coonoor-Mettupalayam Road
+6168473949,Ratufa indica,Mammalia,LC,12.0,False,,,
+6168474133,Bos frontalis,Mammalia,VU,13.0,True,3.5,road,Kolacombai - Selas - Thuthrumattam Road
+6168474207,Herpestes vitticollis,Mammalia,LC,18.0,True,354.3,road,
+6168474238,Ratufa indica,Mammalia,LC,29.0,True,286.7,road,
+6168475423,Ratufa indica,Mammalia,LC,9.0,True,36.4,road,
+6168475424,Muntiacus muntjak,Mammalia,LC,500.0,True,43.8,road,Kolacombai - Selas - Thuthrumattam Road
+6168475444,Ratufa indica,Mammalia,LC,3.0,False,,,
+6168475464,Ratufa indica,Mammalia,LC,10.0,True,9.3,road,Coonoor-Mettupalayam Rd
+6168475493,Macaca radiata,Mammalia,VU,19.0,True,7.5,road,Coonoor-Mettupalayam Road
+6168475626,Macaca radiata,Mammalia,VU,21.0,False,,,
+6168475719,Ratufa indica,Mammalia,LC,20.0,True,22.3,road,
+6168475873,Ratufa indica,Mammalia,LC,23.0,True,78.3,road,
+6168475895,Ratufa indica,Mammalia,LC,12.0,True,368.0,road,
+6168475922,Cuon alpinus,Mammalia,EN,13.0,True,154.1,road,
+6168475982,Macaca radiata,Mammalia,VU,16.0,True,19.4,road,Coonoor-Mettupalayam Road
+6168475998,Macaca radiata,Mammalia,VU,13.0,True,12.3,road,Coonoor-Mettupalayam Road
+6168476322,Rusa unicolor,Mammalia,VU,4.0,True,379.6,road,
+6168476346,Macaca radiata,Mammalia,VU,22.0,True,11.8,road,Coonoor-Mettupalayam Road
+6168476362,Macaca radiata,Mammalia,VU,13.0,True,235.8,road,
+6168476407,Macaca radiata,Mammalia,VU,35.0,True,7.1,road,Coonoor-Mettupalayam Road
+6168476516,Macaca radiata,Mammalia,VU,40.0,True,7.5,road,Coonoor-Mettupalayam Road
+6168476653,Ratufa indica,Mammalia,LC,16.0,True,4.0,road,
+6168476760,Macaca radiata,Mammalia,VU,13.0,True,16.0,road,
+6168476998,Macaca radiata,Mammalia,VU,30.0,True,51.3,road,Coonoor-Mettupalayam Rd
+6168477018,Macaca radiata,Mammalia,VU,10.0,True,6.2,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168477216,Bos frontalis,Mammalia,VU,5.0,True,5.3,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168477402,Semnopithecus priam,Mammalia,NT,23.0,True,18.3,road,Coonoor-Mettupalayam Road
+6168477408,Bos frontalis,Mammalia,VU,15.0,True,5.2,road,Kolacombai - Selas - Thuthrumattam Road
+6168477422,Ratufa indica,Mammalia,LC,31.0,True,24.5,road,
+5104533845,Macaca radiata,Mammalia,VU,9.0,True,8.4,road,
+5104662790,Macaca radiata,Mammalia,VU,242.0,True,19.3,road,
+5133799661,Macaca radiata,Mammalia,VU,215.0,True,85.2,road,
+5133832560,Funambulus palmarum,Mammalia,LC,215.0,True,85.2,road,
+5133914900,Ratufa indica,Mammalia,LC,455.0,True,73.7,road,
+5134006611,Axis axis,Mammalia,LC,215.0,True,85.2,road,
+6168472325,Bos frontalis,Mammalia,VU,26.0,True,9.2,road,Kolacombai - Selas - Thuthrumattam Road
+6168472549,Funambulus palmarum,Mammalia,LC,20.0,True,285.8,road,
+6168473045,Ratufa indica,Mammalia,LC,12.0,True,423.9,road,
+6168473459,Funambulus sublineatus,Mammalia,VU,850.0,False,,,
+6168473653,Ratufa indica,Mammalia,LC,18.0,True,23.1,road,Kolacombai - Selas - Thuthrumattam Road
+6168473707,Funambulus palmarum,Mammalia,LC,20.0,True,285.8,road,
+6168473815,Ratufa indica,Mammalia,LC,13.0,True,443.5,road,
+6168473939,Melursus ursinus,Mammalia,VU,18.0,True,55.1,road,
+6168474122,Herpestes vitticollis,Mammalia,LC,11.0,True,0.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168474139,Semnopithecus priam,Mammalia,NT,16.0,False,,,
+6168474183,Semnopithecus priam,Mammalia,NT,12.0,True,179.9,road,
+6168476779,Lepus nigricollis,Mammalia,LC,19.0,True,24.8,road,
+6168476814,Paradoxurus jerdoni,Mammalia,LC,11.0,False,,,
+6168476879,Semnopithecus priam,Mammalia,NT,15.0,False,,,
+6168476930,Herpestes vitticollis,Mammalia,LC,9.0,True,13.4,road,
+6168477049,Herpestes edwardsi,Mammalia,LC,20.0,True,285.4,road,
+5133732264,Herpestes vitticollis,Mammalia,,41.0,True,124.4,road,
+5134390544,Axis axis,Mammalia,LC,209.0,False,,,
+5134622589,Sus scrofa,Mammalia,LC,209.0,False,,,
+5134755498,Herpestes edwardsi,Mammalia,,209.0,False,,,
+5140163077,Macaca radiata,Mammalia,VU,4.0,True,224.9,road,
+5153025621,Lepus nigricollis,Mammalia,LC,160.0,True,123.2,track,
+5153040823,Macaca radiata,Mammalia,VU,20.0,True,33.9,road,
+5153680084,Macaca radiata,Mammalia,VU,209.0,False,,,
+5154197011,Ratufa indica,Mammalia,LC,209.0,False,,,
+5154970382,Macaca radiata,Mammalia,VU,15.0,True,13.6,road,Botanical Garden
+6168472351,Ratufa indica,Mammalia,LC,12.0,True,6.4,road,Bellada-MellurHosatty Rd
+6168472770,Funambulus sublineatus,Mammalia,VU,5.0,True,1.4,road,Udhagai - Avalanchi - Kundha - Thaishola Road
+6168472822,Hystrix indica,Mammalia,LC,9.0,True,103.0,road,
+6168472877,Funambulus sublineatus,Mammalia,VU,65.0,True,18.3,road,
+6168472911,Muntiacus muntjak,Mammalia,LC,5.0,True,1.7,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473020,Macaca radiata,Mammalia,VU,5.0,True,2.9,road,Bellada-MellurHosatty Rd
+6168473057,Muntiacus muntjak,Mammalia,LC,7.0,True,20.8,road,
+6168473059,Semnopithecus johnii,Mammalia,VU,5.0,True,3.1,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168473397,Herpestes edwardsi,Mammalia,LC,10.0,True,55.8,road,
+6168473616,Semnopithecus johnii,Mammalia,VU,7.0,True,0.8,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168473732,Funambulus sublineatus,Mammalia,VU,5.0,False,,,
+6168473781,Bos frontalis,Mammalia,VU,13.0,True,0.7,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168473782,Herpestes edwardsi,Mammalia,LC,30.0,True,81.1,road,
+6168473787,Ratufa indica,Mammalia,LC,4.0,True,7.8,road,Coonoor - Kundha Road
+6168473877,Semnopithecus johnii,Mammalia,VU,6.0,True,1.5,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168473929,Lepus nigricollis,Mammalia,LC,8.0,True,3.9,road,
+6168474145,Semnopithecus johnii,Mammalia,VU,19.0,True,1.0,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168474272,Macaca radiata,Mammalia,VU,5.0,True,5.8,road,Coonoor-Mettupalayam Road
+6168475806,Bos frontalis,Mammalia,VU,5.0,True,8.6,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168476023,Semnopithecus johnii,Mammalia,VU,13.0,True,9.1,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168476155,Panthera tigris,Mammalia,EN,8.0,True,4.2,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168476180,Semnopithecus johnii,Mammalia,VU,20.0,True,7.5,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168476264,Macaca radiata,Mammalia,VU,5.0,True,15.4,road,Coonoor - Kundha Road
+6168476378,Macaca radiata,Mammalia,VU,4.0,True,227.2,road,
+6168476487,Ratufa indica,Mammalia,LC,8.0,True,1.5,road,Coonoor-Mettupalayam Road
+6168476525,Bos frontalis,Mammalia,VU,5.0,True,4.8,road,
+6168476744,Bos frontalis,Mammalia,VU,42.0,False,,,
+6168476761,Bos frontalis,Mammalia,VU,50.0,True,2.1,road,Coonoor - Kundha Road
+6168476804,Muntiacus muntjak,Mammalia,LC,10.0,True,7.6,road,
+6168476823,Funambulus palmarum,Mammalia,LC,5.0,True,391.7,road,
+6168477094,Semnopithecus johnii,Mammalia,VU,4.0,True,4.9,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168477122,Herpestes smithii,Mammalia,LC,8.0,True,3.1,road,
+6168477409,Hystrix indica,Mammalia,LC,5.0,True,0.2,road,
+6520701305,Paradoxurus jerdoni,Mammalia,LC,143.0,True,96.5,track,
+5167152954,Axis axis,Mammalia,LC,45.0,True,1.1,road,Kozhikode - Kollegal Highway
+5167813163,Ratufa indica,Mammalia,LC,2.0,True,71.8,road,
+5187578796,Rhinolophus rouxii,Mammalia,LC,549.0,True,73.1,road,Udhagai - Avalanchi - Kundha - Thaishola Road
+5216017052,Funambulus tristriatus,Mammalia,LC,10.0,True,46.0,road,
+5216350745,Herpestes vitticollis,Mammalia,,8.0,True,118.6,track,
+5229990253,Axis axis,Mammalia,LC,5.0,True,11.6,track,
+5238104778,Muntiacus muntjak,Mammalia,,516.0,True,164.7,road,Calicut - Vythiri - Gudalur Road
+5830989108,Ratufa indica,Mammalia,LC,135.0,True,19.0,road,
+5837627116,Axis axis,Mammalia,LC,5.0,True,9.8,road,Gundlupet-Gudallur-Coimbatore Road
+5868082704,Macaca radiata,Mammalia,VU,4.0,True,17.2,road,
+5230380285,Axis axis,Mammalia,LC,4.0,True,2.1,track,
+5231089407,Herpestes vitticollis,Mammalia,,13.0,True,3.0,track,
+5231170368,Sus scrofa,Mammalia,LC,3.0,True,0.3,track,
+5238124064,Ratufa indica,Mammalia,LC,209.0,True,13.1,road,Coonoor - Kattabettu Road
+5292901456,Herpestes smithii,Mammalia,,244.0,True,108.7,road,
+6168472357,Bos frontalis,Mammalia,VU,16.0,True,3.8,road,
+6168472448,Semnopithecus priam,Mammalia,NT,2.0,False,,,
+6168472507,Ratufa indica,Mammalia,LC,25.0,True,35.3,road,
+6168472525,Macaca radiata,Mammalia,VU,8.0,True,48.1,road,
+6168472565,Ratufa indica,Mammalia,LC,63.0,True,71.3,road,
+6168472583,Ratufa indica,Mammalia,LC,2.0,True,373.6,road,
+6168472729,Ratufa indica,Mammalia,LC,6.0,True,144.9,road,
+6168472835,Ratufa indica,Mammalia,LC,172.0,True,259.9,road,
+6168472837,Macaca radiata,Mammalia,VU,8.0,True,108.6,road,
+6168473002,Funambulus sublineatus,Mammalia,VU,32.0,False,,,
+6168473017,Macaca radiata,Mammalia,VU,4.0,True,8.2,road,
+6168473043,Ratufa indica,Mammalia,LC,3.0,False,,,
+6168473303,Martes gwatkinsii,Mammalia,VU,129.0,True,15.6,road,
+6168473306,Rusa unicolor,Mammalia,VU,4.0,False,,,
+6168473497,Ratufa indica,Mammalia,LC,7.0,False,,,
+6168473512,Macaca radiata,Mammalia,VU,9.0,True,1.4,road,
+6168473542,Lepus nigricollis,Mammalia,LC,4.0,True,470.7,road,
+6168473657,Macaca radiata,Mammalia,VU,6.0,True,261.5,road,
+6168473699,Herpestes edwardsi,Mammalia,LC,143.0,True,278.2,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473703,Herpestes vitticollis,Mammalia,LC,79.0,True,5.0,road,
+6168473812,Ratufa indica,Mammalia,LC,3.0,False,,,
+6168473888,Bos frontalis,Mammalia,VU,102.0,True,26.3,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168474003,Bos frontalis,Mammalia,VU,4.0,False,,,
+6168474004,Muntiacus muntjak,Mammalia,LC,20.0,True,294.7,road,
+6168474165,Ratufa indica,Mammalia,LC,9.0,False,,,
+6168474215,Muntiacus muntjak,Mammalia,LC,32.0,True,294.7,road,
+6168475364,Macaca radiata,Mammalia,VU,6.0,True,9.6,road,
+6168475411,Herpestes fuscus,Mammalia,LC,12.0,True,4.7,road,
+6168475511,Ratufa indica,Mammalia,LC,8.0,True,280.6,road,
+6168475613,Muntiacus muntjak,Mammalia,LC,78.0,True,279.7,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168475785,Sus scrofa,Mammalia,LC,34.0,False,,,
+6168475814,Ratufa indica,Mammalia,LC,14.0,True,416.2,road,
+6168475826,Semnopithecus johnii,Mammalia,VU,23.0,True,10.0,road,Ooty-Kinnakorai- hiriyaseegai Rd
+6168475829,Ratufa indica,Mammalia,LC,6.0,True,403.3,road,
+6168475943,Herpestes smithii,Mammalia,LC,7.0,True,2.6,road,
+6168476108,Macaca radiata,Mammalia,VU,46.0,True,17.2,road,
+6168476198,Muntiacus muntjak,Mammalia,LC,116.0,True,269.7,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168476292,Ratufa indica,Mammalia,LC,7.0,True,7.8,road,
+6168476440,Bos frontalis,Mammalia,VU,148.0,True,61.1,road,Kolacombai - Selas - Thuthrumattam Road
+6168476507,Cuon alpinus,Mammalia,EN,3.0,True,5.6,road,
+6168476633,Macaca radiata,Mammalia,VU,105.0,True,10.8,road,
+6168476727,Herpestes vitticollis,Mammalia,LC,4.0,True,57.5,road,
+6168476762,Muntiacus muntjak,Mammalia,LC,13.0,True,275.0,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168476793,Herpestes vitticollis,Mammalia,LC,8.0,True,39.9,road,
+6168476924,Ratufa indica,Mammalia,LC,22.0,True,0.9,road,Coonoor-Mettupalayam Road
+6168476961,Macaca radiata,Mammalia,VU,2.0,True,176.1,road,Kolacombai - Selas - Thuthrumattam Road
+6168477071,Rusa unicolor,Mammalia,VU,2.0,True,177.8,road,
+6168477154,Ratufa indica,Mammalia,LC,5.0,True,0.3,road,
+6168477223,Muntiacus muntjak,Mammalia,LC,4.0,True,372.1,road,
+6168477335,Ratufa indica,Mammalia,LC,6.0,True,346.2,road,
+5292195028,Lepus nigricollis,Mammalia,LC,17.0,True,275.1,road,Avalanche Road
+5830819861,Ratufa indica,Mammalia,LC,210.0,True,50.9,road,Gundlupet-Gudallur-Coimbatore Road
+6168472324,Bos frontalis,Mammalia,VU,6.0,True,21.0,road,
+6168472331,Macaca radiata,Mammalia,VU,24.0,True,7.9,road,Ooty-Coonoor Road
+6168472586,Herpestes vitticollis,Mammalia,LC,5.0,True,262.8,road,Kolacombai - Selas - Thuthrumattam Road
+6168472788,Semnopithecus priam,Mammalia,NT,2.0,False,,,
+6168472790,Ratufa indica,Mammalia,LC,4.0,True,15.0,road,
+6168472815,Macaca radiata,Mammalia,VU,5.0,True,3.4,road,Kolacombai-selas- Rd
+6168472949,Semnopithecus priam,Mammalia,NT,5.0,True,334.4,road,
+6168473297,Bos frontalis,Mammalia,VU,14.0,True,10.2,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473377,Panthera pardus,Mammalia,VU,152.0,True,7.5,road,Kolacombai - Selas - Thuthrumattam Road
+6168473474,Semnopithecus johnii,Mammalia,VU,5.0,False,,,
+6168473538,Herpestes edwardsi,Mammalia,LC,3.0,True,6.5,road,Kolacombai - Selas - Thuthrumattam Road
+6168473685,Muntiacus muntjak,Mammalia,LC,14.0,True,188.2,road,
+6168473813,Hystrix indica,Mammalia,LC,3.0,True,3.3,road,
+6168473984,Rusa unicolor,Mammalia,VU,9.0,False,,,
+6168474039,Bos frontalis,Mammalia,VU,23.0,True,8.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168474119,Funambulus palmarum,Mammalia,LC,16.0,True,8.9,road,
+6168474217,Ratufa indica,Mammalia,LC,32.0,True,2.7,road,
+6168474249,Funambulus sublineatus,Mammalia,VU,5.0,False,,,
+6168475318,Semnopithecus priam,Mammalia,NT,6.0,True,249.7,road,
+6168475636,Ratufa indica,Mammalia,LC,9.0,True,9.2,road,
+6168475762,Rusa unicolor,Mammalia,VU,7.0,True,13.3,road,
+6168475837,Herpestes smithii,Mammalia,LC,3.0,True,5.3,road,Kolacombai - Selas - Thuthrumattam Road
+6168476122,Herpestes edwardsi,Mammalia,LC,3.0,True,27.3,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168476147,Herpestes edwardsi,Mammalia,LC,3.0,True,277.8,road,
+6168476221,Amblonyx cinereus,Mammalia,,136.0,True,300.6,road,
+6168476256,Melursus ursinus,Mammalia,VU,32.0,True,285.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168476268,Herpestes edwardsi,Mammalia,LC,4.0,True,155.2,road,
+6168476297,Ratufa indica,Mammalia,LC,5.0,True,7.5,road,
+6168476452,Bos frontalis,Mammalia,VU,72.0,True,10.5,road,
+6168476621,Rusa unicolor,Mammalia,VU,4.0,False,,,
+6168476713,Bos frontalis,Mammalia,VU,56.0,True,19.7,road,
+6168476724,Bos frontalis,Mammalia,VU,3.0,True,7.4,road,
+6168476927,Ratufa indica,Mammalia,LC,5.0,False,,,
+6168477299,Paradoxurus jerdoni,Mammalia,LC,4.0,True,263.0,road,
+6168477413,Funambulus palmarum,Mammalia,LC,2.0,True,278.2,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6400396003,Ratufa indica,Mammalia,LC,210.0,True,50.9,road,Gundlupet-Gudallur-Coimbatore Road
+5761121972,Canis lupus,Mammalia,,4.0,True,64.5,road,
+5828008643,Ratufa indica,Mammalia,LC,2.0,True,17.3,road,Coonoor - Kattabettu Road
+5837729613,Ratufa indica,Mammalia,LC,209.0,True,15.2,road,Coonoor - Kattabettu Road
+5837857392,Hystrix indica,Mammalia,LC,210.0,True,12.9,road,Avalanche Road
+5839802539,Funambulus palmarum,Mammalia,LC,206.0,True,24.4,road,
+5868395659,Axis axis,Mammalia,LC,5.0,True,6.1,road,Gundlupet-Gudallur-Coimbatore Rd
+5892913201,Macaca radiata,Mammalia,VU,5.0,True,0.1,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6168472322,Macaca radiata,Mammalia,VU,8.0,True,269.7,road,
+6168472342,Semnopithecus priam,Mammalia,NT,93.0,True,7.8,road,Thalaikundha - Kallatty - Theppakadu Road
+6168472348,Funambulus sublineatus,Mammalia,VU,5.0,True,344.3,road,
+6168472374,Ratufa indica,Mammalia,LC,8.0,True,6.6,road,Gudallur-Ooty Road
+6168472427,Bos frontalis,Mammalia,VU,4.0,True,6.6,road,Kolacombai-selas- Rd
+6168472439,Semnopithecus priam,Mammalia,NT,5.0,False,,,
+6168472446,Bos frontalis,Mammalia,VU,21.0,True,24.7,road,
+6168472511,Semnopithecus priam,Mammalia,NT,2.0,True,3.1,road,
+6168472540,Axis axis,Mammalia,LC,15.0,True,0.2,road,Gundlupet-Gudallur-Coimbatore Rd
+6168472580,Macaca radiata,Mammalia,VU,7.0,True,274.9,road,
+6168472585,Funambulus sublineatus,Mammalia,VU,500.0,True,27.7,road,
+6168472600,Axis axis,Mammalia,LC,26.0,True,3.9,road,Gundlupet-Gudallur-Coimbatore Rd
+6168472614,Elephas maximus,Mammalia,EN,42.0,False,,,
+6168472620,Muntiacus muntjak,Mammalia,LC,11.0,True,285.9,road,
+6168472621,Axis axis,Mammalia,LC,25.0,True,1.3,road,Gundlupet-Gudallur-Coimbatore Road
+6168472646,Axis axis,Mammalia,LC,29.0,True,5.7,road,Gundlupet-Gudallur-Coimbatore Rd
+6168472657,Lepus nigricollis,Mammalia,LC,16.0,True,105.2,road,
+6168472689,Muntiacus muntjak,Mammalia,LC,2.0,True,0.4,road,
+6168472716,Funambulus palmarum,Mammalia,LC,4.0,False,,,
+6168472727,Axis axis,Mammalia,LC,46.0,True,1.0,road,Gundlupet-Gudallur-Coimbatore Road
+6168472882,Axis axis,Mammalia,LC,31.0,True,2.1,road,Gundlupet-Gudallur-Coimbatore Road
+6168472887,Macaca radiata,Mammalia,VU,20.0,True,0.9,road,Gundlupet-Gudallur-Coimbatore Rd
+6168472944,Bos frontalis,Mammalia,VU,155.0,True,60.3,road,
+6168472965,Axis axis,Mammalia,LC,14.0,True,3.5,road,Thalaikundha - Kallatty - Theppakadu Road
+6168472984,Ratufa indica,Mammalia,LC,14.0,True,5.4,road,Gundlupet-Gudallur-Coimbatore Road
+6168472996,Bos frontalis,Mammalia,VU,6.0,False,,,
+6168473024,Axis axis,Mammalia,LC,41.0,True,0.2,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473040,Axis axis,Mammalia,LC,84.0,True,0.3,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473046,Axis axis,Mammalia,LC,30.0,True,3.1,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473055,Axis axis,Mammalia,LC,27.0,True,7.6,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473089,Herpestes edwardsi,Mammalia,LC,3.0,True,6.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473137,Axis axis,Mammalia,LC,33.0,True,5.7,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473176,Macaca radiata,Mammalia,VU,5.0,True,339.0,road,
+6168473195,Macaca radiata,Mammalia,VU,116.0,True,85.9,road,Halakarai Road
+6168473198,Axis axis,Mammalia,LC,35.0,True,1.9,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473217,Ratufa indica,Mammalia,LC,12.0,False,,,
+6168473248,Axis axis,Mammalia,LC,30.0,True,5.7,road,Thalaikundha - Kallatty - Theppakadu Road
+6168473265,Ratufa indica,Mammalia,LC,4.0,True,0.9,road,
+6168473283,Semnopithecus johnii,Mammalia,VU,7.0,True,3.2,road,Gudallur-Ooty Road
+6168473320,Rusa unicolor,Mammalia,VU,160.0,True,9.0,road,
+6168473326,Semnopithecus priam,Mammalia,NT,37.0,True,2.4,road,Thalaikundha - Kallatty - Theppakadu Road
+6168473343,Bos frontalis,Mammalia,VU,4.0,True,1.0,road,
+6168473376,Bos frontalis,Mammalia,VU,4.0,True,274.1,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473422,Melursus ursinus,Mammalia,VU,5.0,True,267.2,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473503,Paradoxurus jerdoni,Mammalia,LC,107.0,True,30.2,road,
+6168473515,Petinomys fuscocapillus,Mammalia,LC,3.0,False,,,
+6168473576,Axis axis,Mammalia,LC,22.0,True,0.8,road,Thalaikundha - Kallatty - Theppakadu Road
+6168473597,Muntiacus muntjak,Mammalia,LC,27.0,True,40.9,road,
+6168473627,Muntiacus muntjak,Mammalia,LC,3.0,True,272.8,road,
+6168473689,Petinomys fuscocapillus,Mammalia,LC,7.0,False,,,
+6168473713,Axis axis,Mammalia,LC,32.0,True,8.9,road,Gundlupet-Gudallur-Coimbatore Rd
+6168473729,Axis axis,Mammalia,LC,22.0,True,2.1,road,Gundlupet-Gudallur-Coimbatore Road
+6168473759,Muntiacus muntjak,Mammalia,LC,700.0,True,2.9,road,
+6168473763,Axis axis,Mammalia,LC,63.0,True,4.4,road,Gundlupet-Gudallur-Coimbatore Road
+6168473767,Sus scrofa,Mammalia,LC,42.0,True,131.0,road,
+6168473795,Funambulus sublineatus,Mammalia,VU,1.0,False,,,
+6168473799,Semnopithecus priam,Mammalia,NT,3.0,False,,,
+6168473814,Lepus nigricollis,Mammalia,LC,4.0,True,14.4,road,
+6168473821,Semnopithecus priam,Mammalia,NT,2.0,False,,,
+6168473889,Rusa unicolor,Mammalia,VU,4.0,True,193.3,road,
+6168473896,Paradoxurus hermaphroditus,Mammalia,LC,4.0,True,1.8,road,
+6168473959,Macaca radiata,Mammalia,VU,19.0,True,18.2,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6168473997,Funambulus sublineatus,Mammalia,VU,4.0,False,,,
+6168474007,Bos frontalis,Mammalia,VU,110.0,True,169.1,road,Kolacombai - Selas - Thuthrumattam Road
+6168474018,Herpestes edwardsi,Mammalia,LC,14.0,True,129.9,road,
+6168474028,Axis axis,Mammalia,LC,35.0,True,2.3,road,Gundlupet-Gudallur-Coimbatore Road
+6168474068,Macaca radiata,Mammalia,VU,17.0,True,9.5,road,Gundlupet-Gudallur-Coimbatore Road
+6168474082,Herpestes edwardsi,Mammalia,LC,14.0,True,20.8,road,
+6168474094,Herpestes vitticollis,Mammalia,LC,16.0,True,454.6,road,
+6168474120,Semnopithecus priam,Mammalia,NT,1000.0,True,105.8,road,
+6168474124,Herpestes vitticollis,Mammalia,LC,36.0,True,24.1,road,Coonoor - Kattabettu Road
+6168474164,Ratufa indica,Mammalia,LC,8.0,False,,,
+6168474176,Axis axis,Mammalia,LC,50.0,True,3.0,road,Gundlupet-Gudallur-Coimbatore Rd
+6168474179,Funambulus palmarum,Mammalia,LC,36.0,True,149.7,road,
+6168474201,Muntiacus muntjak,Mammalia,LC,3.0,True,20.9,road,
+6168474208,Bos frontalis,Mammalia,VU,2.0,True,2.2,road,
+6168474285,Muntiacus muntjak,Mammalia,LC,5.0,False,,,
+6168474297,Ratufa indica,Mammalia,LC,6.0,True,5.0,road,
+6168475311,Axis axis,Mammalia,LC,31.0,True,7.4,road,Gundlupet-Gudallur-Coimbatore Road
+6168475438,Lepus nigricollis,Mammalia,LC,4.0,True,16.8,road,
+6168475476,Bos frontalis,Mammalia,VU,16.0,True,18.5,road,
+6168475489,Semnopithecus priam,Mammalia,NT,14.0,True,3.1,road,
+6168475519,Macaca radiata,Mammalia,VU,14.0,True,10.7,road,Gudallur-Ooty Road
+6168475533,Funambulus palmarum,Mammalia,LC,18.0,True,84.2,road,
+6168475534,Elephas maximus,Mammalia,EN,23.0,True,0.1,road,Gundlupet-Gudallur-Coimbatore Road
+6168475543,Macaca radiata,Mammalia,VU,56.0,True,11.7,road,Halakkarai Road
+6168475556,Herpestes vitticollis,Mammalia,LC,4.0,True,37.8,road,
+6168475576,Macaca radiata,Mammalia,VU,59.0,True,10.0,road,Gudallur-Ooty Road
+6168475633,Bos frontalis,Mammalia,VU,56.0,True,0.9,road,Gundlupet-Gudallur-Coimbatore Road
+6168475642,Axis axis,Mammalia,LC,40.0,True,4.6,road,Gundlupet-Gudallur-Coimbatore Road
+6168475653,Bos frontalis,Mammalia,VU,7.0,True,9.9,road,
+6168475667,Bos frontalis,Mammalia,VU,4.0,True,35.1,road,
+6168475683,Macaca radiata,Mammalia,VU,32.0,True,4.3,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6168475700,Bos frontalis,Mammalia,VU,51.0,True,9.0,road,Halakarai Road
+6168475717,Axis axis,Mammalia,LC,28.0,True,4.6,road,Gundlupet-Gudallur-Coimbatore Road
+6168475733,Macaca radiata,Mammalia,VU,14.0,True,2.6,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6168475779,Semnopithecus johnii,Mammalia,VU,3.0,False,,,
+6168475850,Bos frontalis,Mammalia,VU,7.0,True,3.9,road,
+6168475865,Petinomys fuscocapillus,Mammalia,LC,4.0,True,1.1,road,
+6168475874,Axis axis,Mammalia,LC,22.0,True,1.0,road,Gundlupet-Gudallur-Coimbatore Road
+6168475881,Axis axis,Mammalia,LC,21.0,True,6.6,road,Thalaikundha - Kallatty - Theppakadu Road
+6168475885,Semnopithecus priam,Mammalia,NT,1.0,True,5.4,road,
+6168475914,Axis axis,Mammalia,LC,37.0,True,1.8,road,Gundlupet-Gudallur-Coimbatore Rd
+6168475926,Bos frontalis,Mammalia,VU,56.0,True,287.0,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168475957,Cuon alpinus,Mammalia,EN,6.0,True,21.1,road,
+6168476048,Macaca radiata,Mammalia,VU,14.0,True,1.8,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6168476090,Axis axis,Mammalia,LC,85.0,True,1.9,road,Gundlupet-Gudallur-Coimbatore Rd
+6168476104,Ratufa indica,Mammalia,LC,2.0,True,128.6,road,
+6168476113,Axis axis,Mammalia,LC,58.0,True,2.5,road,Gundlupet-Gudallur-Coimbatore Rd
+6168476116,Herpestes edwardsi,Mammalia,LC,1000.0,True,271.6,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168476162,Bos frontalis,Mammalia,VU,14.0,True,159.7,road,
+6168476166,Macaca radiata,Mammalia,VU,5.0,True,363.4,road,
+6168476178,Macaca radiata,Mammalia,VU,28.0,True,113.2,road,
+6168476184,Axis axis,Mammalia,LC,26.0,True,4.4,road,Gundlupet-Gudallur-Coimbatore Road
+6168476219,Macaca radiata,Mammalia,VU,32.0,True,29.1,road,Halakkarai Road
+6168476233,Axis axis,Mammalia,LC,2.0,True,8.9,road,
+6168476243,Bos frontalis,Mammalia,VU,900.0,True,8.8,road,Kolacombai - Selas - Thuthrumattam Road
+6168476275,Herpestes edwardsi,Mammalia,LC,137.0,True,20.2,road,
+6168476315,Bos frontalis,Mammalia,VU,35.0,True,3.4,road,
+6168476329,Lepus nigricollis,Mammalia,LC,9.0,False,,,
+6168476354,Funambulus palmarum,Mammalia,LC,8.0,True,398.6,road,
+6168476432,Hystrix indica,Mammalia,LC,14.0,True,13.3,road,
+6168476435,Macaca radiata,Mammalia,VU,14.0,True,46.8,road,
+6168476436,Funambulus palmarum,Mammalia,LC,2.0,True,30.7,road,
+6168476485,Bos frontalis,Mammalia,VU,53.0,True,331.3,road,
+6168476504,Semnopithecus hypoleucos,Mammalia,LC,2.0,True,362.8,road,
+6168476536,Muntiacus muntjak,Mammalia,LC,7.0,True,379.9,road,
+6168476578,Funambulus palmarum,Mammalia,LC,2.0,False,,,
+6168476630,Herpestes vitticollis,Mammalia,LC,4.0,True,387.8,road,
+6168476639,Bos frontalis,Mammalia,VU,24.0,True,8.6,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6168476719,Axis axis,Mammalia,LC,28.0,True,2.3,road,
+6168476788,Bos frontalis,Mammalia,VU,51.0,True,4.2,road,Halakkarai Road
+6168476791,Petaurista philippensis,Mammalia,LC,22.0,True,5.4,road,
+6168476806,Bos frontalis,Mammalia,VU,14.0,True,5.6,road,Kekkatty Palada Road
+6168476834,Paradoxurus jerdoni,Mammalia,LC,24.0,False,,,
+6168476844,Muntiacus muntjak,Mammalia,LC,6.0,False,,,
+6168476850,Funambulus sublineatus,Mammalia,VU,6.0,False,,,
+6168476853,Axis axis,Mammalia,LC,33.0,True,12.5,road,Thalaikundha - Kallatty - Theppakadu Road
+6168476861,Axis axis,Mammalia,LC,35.0,True,0.7,road,Gundlupet-Gudallur-Coimbatore Rd
+6168476865,Herpestes edwardsi,Mammalia,LC,117.0,True,8.8,road,
+6168476890,Macaca radiata,Mammalia,VU,56.0,True,13.3,road,Thalaikundha - Kallatty - Theppakadu Road
+6168476894,Funambulus palmarum,Mammalia,LC,22.0,True,6.8,road,
+6168476897,Axis axis,Mammalia,LC,26.0,True,0.5,road,Gundlupet-Gudallur-Coimbatore Rd
+6168476902,Petaurista philippensis,Mammalia,LC,4.0,True,1.4,road,
+6168476906,Petinomys fuscocapillus,Mammalia,LC,5.0,False,,,
+6168476908,Funambulus palmarum,Mammalia,LC,5.0,True,335.5,road,
+6168476923,Axis axis,Mammalia,LC,18.0,True,0.9,road,Gundlupet-Gudallur-Coimbatore Road
+6168477016,Axis axis,Mammalia,LC,34.0,True,1.9,road,Gundlupet-Gudallur-Coimbatore Road
+6168477077,Herpestes edwardsi,Mammalia,LC,700.0,True,50.8,road,
+6168477079,Elephas maximus,Mammalia,EN,16.0,True,4.5,road,Thalaikundha - Kallatty - Theppakadu Road
+6168477086,Cuon alpinus,Mammalia,EN,5.0,True,177.4,road,
+6168477100,Muntiacus muntjak,Mammalia,LC,34.0,True,30.3,road,
+6168477135,Hystrix indica,Mammalia,LC,14.0,True,9.7,road,
+6168477214,Paradoxurus hermaphroditus,Mammalia,LC,12.0,False,,,
+6168477220,Bos frontalis,Mammalia,VU,22.0,True,268.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168477268,Sus scrofa,Mammalia,LC,5.0,True,3.2,road,Kekkatty Palada Road
+6168477272,Muntiacus muntjak,Mammalia,LC,900.0,True,280.6,road,
+6168477290,Axis axis,Mammalia,LC,34.0,True,8.2,road,Gundlupet-Gudallur-Coimbatore Rd
+6168477364,Macaca radiata,Mammalia,VU,800.0,True,164.2,road,
+6168477393,Macaca radiata,Mammalia,VU,25.0,True,3.2,road,Gundlupet-Gudallur-Coimbatore Rd
+6168477427,Paradoxurus jerdoni,Mammalia,LC,46.0,True,1.2,road,Kolacombai - Selas - Thuthrumattam Road
+6170913425,Herpestes vitticollis,Mammalia,,206.0,True,20.9,road,
+6413539343,Axis axis,Mammalia,LC,259.0,True,1.1,track,
+5840310427,Axis axis,Mammalia,LC,19.0,True,4.8,road,Gundlupet-Gudallur-Coimbatore Rd
+5840459544,Macaca radiata,Mammalia,VU,181.0,True,333.9,road,
+5844390363,Ratufa indica,Mammalia,LC,209.0,True,15.2,road,Coonoor - Kattabettu Road
+5868083841,Macaca radiata,Mammalia,VU,23.0,True,7.3,road,Gundlupet-Gudallur-Coimbatore Road
+5868246995,Ratufa indica,Mammalia,LC,210.0,True,2.3,road,Police Station Road
+5889245859,Ratufa indica,Mammalia,LC,16.0,True,154.7,road,
+5889275283,Macaca radiata,Mammalia,VU,51.0,True,64.0,road,Gudallur-Ooty Road
+5889405108,Funambulus palmarum,Mammalia,LC,229.0,True,135.1,road,
+5889545884,Axis axis,Mammalia,LC,47.0,True,202.7,road,
+5890046853,Macaca radiata,Mammalia,VU,229.0,True,135.1,road,
+5890397838,Macaca radiata,Mammalia,VU,16.0,True,13.9,road,Gudallur-Ooty Road
+5892949871,Ratufa indica,Mammalia,LC,25.0,True,45.7,road,
+5897272970,Axis axis,Mammalia,LC,212.0,True,17.3,track,
+5897296837,Sus scrofa,Mammalia,LC,41.0,True,199.9,road,
+6133244678,Ratufa indica,Mammalia,LC,28.0,True,17.5,road,
+6168472312,Herpestes edwardsi,Mammalia,LC,3.0,True,4.9,road,
+6168472449,Lepus nigricollis,Mammalia,LC,4.0,True,271.5,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168473892,Semnopithecus priam,Mammalia,NT,3.0,False,,,
+6168476142,Herpestes edwardsi,Mammalia,LC,4.0,True,4.5,road,Kolacombai - Selas - Thuthrumattam Road
+6168477034,Funambulus sublineatus,Mammalia,VU,900.0,True,111.0,road,
+6168477212,Semnopithecus johnii,Mammalia,VU,13.0,False,,,
+6398717409,Axis axis,Mammalia,LC,2.0,True,1.6,road,Thalaikundha - Kallatty - Theppakadu Road
+5892831064,Paradoxurus jerdoni,Mammalia,LC,45.0,True,128.3,track,
+5893014193,Ratufa indica,Mammalia,LC,209.0,True,13.1,road,Coonoor - Kattabettu Road
+5903896048,Sus scrofa,Mammalia,LC,5.0,True,14.7,road,Gudallur-Ooty Road
+5908607023,Axis axis,Mammalia,LC,225.0,True,0.8,road,Thalaikundha - Kallatty - Theppakadu Road
+5908799670,Axis axis,Mammalia,LC,106.0,True,239.7,road,
+5908933220,Ratufa indica,Mammalia,LC,63.0,True,294.9,road,
+5935502625,Axis axis,Mammalia,LC,129.0,True,310.0,road,
+5936048948,Axis axis,Mammalia,LC,752.0,True,5.9,road,Thalaikundha - Kallatty - Theppakadu Road
+6168472441,Herpestes edwardsi,Mammalia,LC,14.0,True,2.7,road,Kolacombai - Selas - Thuthrumattam Road
+6168472526,Ratufa indica,Mammalia,LC,3.0,True,31.8,road,
+6168472645,Bos frontalis,Mammalia,VU,7.0,True,171.6,road,Kolacombai - Selas - Thuthrumattam Road
+6168472696,Macaca radiata,Mammalia,VU,14.0,True,2.0,road,Coonoor-Mettupalayam Road
+6168472746,Macaca radiata,Mammalia,VU,7.0,True,237.0,road,
+6168472752,Viverricula indica,Mammalia,LC,600.0,True,82.0,road,
+6168472823,Axis axis,Mammalia,LC,78.0,True,8.8,road,Gundlupet-Gudallur-Coimbatore Road
+6168472866,Bos frontalis,Mammalia,VU,14.0,True,0.6,road,Coonoor-Mettupalayam Road
+6168472974,Axis axis,Mammalia,LC,92.0,True,5.1,road,Gundlupet-Gudallur-Coimbatore Road
+6168473049,Lepus nigricollis,Mammalia,LC,3.0,True,9.5,road,
+6168473212,Panthera pardus,Mammalia,VU,17.0,True,6.0,road,Thalaikundha - Kallatty - Theppakadu Road
+6168473243,Semnopithecus priam,Mammalia,NT,5.0,True,6.6,road,
+6168473308,Sus scrofa,Mammalia,LC,70.0,True,2.0,road,Thalaikundha - Kallatty - Theppakadu Road
+6168473425,Funambulus sublineatus,Mammalia,VU,88.0,False,,,
+6168473442,Bos frontalis,Mammalia,VU,28.0,True,5.4,road,Kolacombai - Selas - Thuthrumattam Road
+6168473471,Bos frontalis,Mammalia,VU,4.0,True,2.4,road,Coonoor - Kundha Road
+6168473559,Melursus ursinus,Mammalia,VU,40.0,True,2.4,road,Gundlupet-Gudallur-Coimbatore Road
+6168473562,Ratufa indica,Mammalia,LC,2.0,False,,,
+6168474000,Bos frontalis,Mammalia,VU,900.0,True,45.2,road,Kolacombai - Selas - Thuthrumattam Road
+6168474027,Funambulus palmarum,Mammalia,LC,6.0,True,0.6,road,Kolacombai - Selas - Thuthrumattam Road
+6168474063,Muntiacus muntjak,Mammalia,LC,57.0,True,245.6,road,
+6168474250,Muntiacus muntjak,Mammalia,LC,4.0,False,,,
+6168475362,Lepus nigricollis,Mammalia,LC,900.0,True,76.4,road,
+6168475523,Herpestes vitticollis,Mammalia,LC,3.0,True,4.2,road,
+6168475581,Macaca radiata,Mammalia,VU,61.0,True,3.5,road,Gundlupet-Gudallur-Coimbatore Road
+6168475661,Ratufa indica,Mammalia,LC,8.0,False,,,
+6168475753,Funambulus sublineatus,Mammalia,VU,5.0,False,,,
+6168475774,Bos frontalis,Mammalia,VU,14.0,True,4.4,road,Thalaikundha - Kallatty - Theppakadu Road
+6168475810,Macaca radiata,Mammalia,VU,14.0,True,6.9,road,Thalaikundha - Kallatty - Theppakadu Road
+6168475990,Axis axis,Mammalia,LC,5.0,True,56.1,road,
+6168475994,Bos frontalis,Mammalia,VU,2.0,False,,,
+6168476120,Macaca radiata,Mammalia,VU,100.0,True,0.9,road,Gundlupet-Gudallur-Coimbatore Road
+6168476169,Herpestes edwardsi,Mammalia,LC,24.0,True,1.0,road,Thalaikundha - Kallatty - Theppakadu Road
+6168476230,Axis axis,Mammalia,LC,7.0,True,5.5,road,
+6168476338,Axis axis,Mammalia,LC,114.0,True,26.2,road,Thalaikundha - Kallatty - Theppakadu Road
+6168476565,Herpestes edwardsi,Mammalia,LC,122.0,True,277.4,road,
+6168476655,Semnopithecus priam,Mammalia,NT,5.0,False,,,
+6168476849,Paradoxurus hermaphroditus,Mammalia,LC,4.0,True,408.0,road,Kolacombai - Selas - Thuthrumattam Road
+6168476880,Macaca radiata,Mammalia,VU,116.0,True,31.3,road,
+6168476963,Herpestes edwardsi,Mammalia,LC,3.0,True,156.5,road,
+6168477014,Semnopithecus priam,Mammalia,NT,8.0,True,432.6,road,
+6168477029,Axis axis,Mammalia,LC,32.0,True,5.7,road,Gundlupet-Gudallur-Coimbatore Rd
+6168477073,Axis axis,Mammalia,LC,57.0,True,9.0,road,Gundlupet-Gudallur-Coimbatore Road
+6168477133,Semnopithecus priam,Mammalia,NT,7.0,False,,,
+6168477148,Bos frontalis,Mammalia,VU,6.0,True,4.9,road,
+6168477196,Axis axis,Mammalia,LC,46.0,True,9.4,road,Gundlupet-Gudallur-Coimbatore Road
+6168477235,Semnopithecus priam,Mammalia,NT,15.0,True,0.6,road,Thalaikundha - Kallatty - Theppakadu Road
+6168477312,Ratufa indica,Mammalia,LC,5.0,True,58.8,road,
+6334911539,Axis axis,Mammalia,LC,862.0,True,117.7,road,Gundlupet-Gudallur-Coimbatore Road
+5932199149,Ratufa indica,Mammalia,LC,5.0,False,,,
+5932592005,Hystrix indica,Mammalia,LC,147.0,True,121.2,track,
+5935865799,Ratufa indica,Mammalia,LC,200.0,True,38.0,road,
+5936042480,Ratufa indica,Mammalia,LC,2.0,True,38.6,road,
+5936129587,Felis chaus,Mammalia,LC,4.0,False,,,
+6168472420,Herpestes smithii,Mammalia,LC,3.0,True,27.6,road,
+6168472509,Muntiacus muntjak,Mammalia,LC,200.0,True,31.4,road,
+6168472649,Cuon alpinus,Mammalia,EN,2.0,True,12.1,road,
+6168472660,Herpestes edwardsi,Mammalia,LC,83.0,True,244.6,road,
+6168473058,Ratufa indica,Mammalia,LC,11.0,True,34.9,road,
+6168473230,Muntiacus muntjak,Mammalia,LC,2.0,True,378.1,road,
+6168473537,Herpestes smithii,Mammalia,LC,22.0,True,9.4,road,Thalaikundha - Kallatty - Theppakadu Road
+6168473885,Bos frontalis,Mammalia,VU,29.0,True,5.8,road,Kolacombai - Selas - Thuthrumattam Road
+6168474193,Herpestes edwardsi,Mammalia,LC,5.0,True,3.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168475828,Ratufa indica,Mammalia,LC,5.0,True,398.1,road,
+6168475832,Semnopithecus priam,Mammalia,NT,4.0,False,,,
+6168476388,Funambulus palmarum,Mammalia,LC,78.0,True,82.7,road,
+6168476561,Macaca radiata,Mammalia,VU,2.0,True,12.2,road,
+6168476801,Herpestes edwardsi,Mammalia,LC,7.0,True,220.8,road,Kolacombai - Selas - Thuthrumattam Road
+6168476825,Funambulus tristriatus,Mammalia,LC,800.0,True,154.7,track,
+6168476903,Sus scrofa,Mammalia,LC,12.0,True,2.6,road,
+6168476938,Semnopithecus priam,Mammalia,NT,105.0,True,333.0,road,
+6168476991,Herpestes edwardsi,Mammalia,LC,4.0,True,269.6,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168477175,Ratufa indica,Mammalia,LC,2.0,True,6.0,road,
+6452096025,Herpestes smithii,Mammalia,,16.0,True,5.5,track,Safari Track
+4528097288,Ratufa indica,Mammalia,LC,108.0,True,80.2,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4535681373,Muntiacus muntjak,Mammalia,,637.0,True,16.4,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4606653918,Macaca radiata,Mammalia,VU,210.0,True,2.3,road,Police Station Road
+4606827364,Canis aureus,Mammalia,,210.0,False,,,
+4863348941,Suncus etruscus,Mammalia,LC,8.0,True,18.5,road,
+4882092063,Ratufa indica,Mammalia,LC,47.0,True,54.0,track,
+5008215126,Muntiacus muntjak,Mammalia,,226.0,True,71.5,road,Groves Hill Road
+4599887668,Funambulus palmarum,Mammalia,LC,215.0,True,85.2,road,
+4599986401,Sus scrofa,Mammalia,LC,339.0,True,85.2,road,
+4600132613,Sus scrofa,Mammalia,LC,215.0,True,85.2,road,
+4600139305,Axis axis,Mammalia,LC,215.0,True,85.2,road,
+4851828727,Macaca radiata,Mammalia,VU,3.0,True,8.6,road,Coonoor-Mettupalayam Road
+4852170206,Ratufa indica,Mammalia,LC,3.0,True,5.6,road,
+4951945354,Macaca radiata,Mammalia,VU,5.0,True,11.1,road,
+4951945367,Ratufa indica,Mammalia,LC,4.0,True,11.3,road,
+4951945440,Muntiacus muntjak,Mammalia,,5.0,True,7.4,road,
+4951945459,Semnopithecus priam,Mammalia,NT,4.0,False,,,
+4951945537,Ratufa indica,Mammalia,LC,7.0,True,416.9,road,
+4951945556,Macaca radiata,Mammalia,VU,5.0,True,14.9,road,
+4951945599,Ratufa indica,Mammalia,LC,5.0,True,2.4,road,
+4951945664,Ratufa indica,Mammalia,LC,4.0,False,,,
+4951945676,Ratufa indica,Mammalia,LC,4.0,False,,,
+4951945682,Ratufa indica,Mammalia,LC,8.0,True,1.7,road,Sholurmattam Road
+4951945848,Ratufa indica,Mammalia,LC,5.0,True,13.3,road,
+4951945870,Ratufa indica,Mammalia,LC,5.0,True,13.9,road,
+5037087373,Ratufa indica,Mammalia,LC,287.0,True,85.2,road,
+4852380729,Ratufa indica,Mammalia,LC,261.0,True,16.2,road,Coonoor-Mettupalayam Rd
+5063732156,Herpestes edwardsi,Mammalia,,50.0,True,157.7,road,
+5063780120,Lepus nigricollis,Mammalia,LC,31.0,True,0.7,road,Ooty-Coonoor-Mettupalayam- Road
+5063827346,Funambulus palmarum,Mammalia,LC,85.0,True,85.2,road,
+5154656380,Macaca radiata,Mammalia,VU,28.0,True,0.7,road,Botanical Garden
+5935920299,Canis lupus,Mammalia,,210.0,True,12.9,road,Avalanche Road
+4868172840,Macaca radiata,Mammalia,VU,7.0,True,5.2,road,Ari Gowder bridge
+4901043248,Muntiacus muntjak,Mammalia,,20.0,True,102.7,road,
+4908452975,Muntiacus muntjak,Mammalia,,244.0,True,208.8,road,
+5007817229,Macaca radiata,Mammalia,VU,8.0,True,2.2,road,
+5037006757,Ratufa indica,Mammalia,LC,116.0,True,20.2,road,Botanical Garden
+5063825307,Ratufa indica,Mammalia,LC,145.0,True,19.3,road,Hebron School Driveway
+4904232879,Macaca radiata,Mammalia,VU,15.0,True,10.6,road,Coonoor - Kattabettu Road
+4910691120,Ratufa indica,Mammalia,,4.0,True,31.0,road,
+4951945343,Macaca radiata,Mammalia,VU,4.0,True,363.9,road,
+4951945652,Ratufa indica,Mammalia,LC,5.0,True,373.1,road,
+4951945655,Martes gwatkinsii,Mammalia,VU,4.0,True,106.9,road,Thalaikundha - Kallatty - Theppakadu Road
+4951945686,Ratufa indica,Mammalia,LC,5.0,True,54.4,road,
+4908193998,Axis axis,Mammalia,LC,954.0,True,370.4,track,
+4951945644,Funambulus sublineatus,Mammalia,VU,4.0,False,,,
+4951945675,Ratufa indica,Mammalia,LC,4.0,False,,,
+4951945723,Ratufa indica,Mammalia,LC,102.0,True,142.5,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+4951945921,Funambulus sublineatus,Mammalia,VU,4.0,False,,,
+4935998582,Axis axis,Mammalia,LC,7.0,True,0.9,road,
+4936086862,Axis axis,Mammalia,LC,5.0,True,42.6,road,
+4936410644,Sus scrofa,Mammalia,LC,49.0,True,4.6,road,Thalaikundha - Kallatty - Theppakadu Road
+4937189121,Sus scrofa,Mammalia,,34.0,True,1.0,road,
+4951945309,Funambulus palmarum,Mammalia,LC,4.0,True,1.5,road,
+4951945415,Ratufa indica,Mammalia,LC,3.0,False,,,
+4951945491,Ratufa indica,Mammalia,LC,13.0,True,16.3,road,Halakarai Road
+4951945554,Funambulus sublineatus,Mammalia,VU,16.0,True,374.1,road,
+4951945578,Macaca radiata,Mammalia,VU,11.0,True,5.8,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4951945769,Muntiacus muntjak,Mammalia,,8.0,False,,,
+4951945815,Macaca radiata,Mammalia,VU,6.0,True,1.1,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4951945877,Herpestes edwardsi,Mammalia,LC,7.0,True,1.0,road,
+4951945894,Muntiacus muntjak,Mammalia,,12.0,True,2.1,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+5133715470,Muntiacus muntjak,Mammalia,,11.0,True,108.5,track,
+5198691183,Axis axis,Mammalia,LC,4.0,True,1.1,road,
+6129857984,Antilope cervicapra,Mammalia,,259.0,True,47.0,road,
+4950122573,Ratufa indica,Mammalia,LC,236.0,True,27.2,road,
+4950269087,Axis axis,Mammalia,LC,191.0,True,42.8,road,
+4950325258,Ratufa indica,Mammalia,LC,45.0,True,28.0,road,Botanical Garden
+4950337961,Ratufa indica,Mammalia,LC,131.0,True,63.1,road,
+4950448715,Ratufa indica,Mammalia,LC,236.0,True,72.1,road,
+4950516931,Ratufa indica,Mammalia,LC,210.0,True,57.1,road,
+4952264999,Hystrix indica,Mammalia,LC,6.0,True,55.1,road,
+4952942557,Ratufa indica,Mammalia,LC,5.0,True,151.7,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+5007275876,Macaca radiata,Mammalia,VU,4.0,True,18.7,road,Gundlupet-Gudallur-Coimbatore Rd
+6168472398,Herpestes edwardsi,Mammalia,LC,6.0,True,169.5,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168472740,Hystrix indica,Mammalia,LC,7.0,True,0.9,road,
+6168472921,Muntiacus muntjak,Mammalia,LC,15.0,True,248.0,road,
+6168475619,Petaurista philippensis,Mammalia,LC,16.0,True,3.6,road,
+6168477262,Rusa unicolor,Mammalia,VU,27.0,True,276.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+5088202370,Ratufa indica,Mammalia,LC,213.0,True,16.3,road,Gandhinagar
+4982157195,Sus scrofa,Mammalia,LC,29.0,True,175.2,road,Avalanche Road
+4987426174,Ratufa indica,Mammalia,LC,4.0,True,42.5,track,
+4987441585,Antilope cervicapra,Mammalia,LC,31.0,False,,,
+4987743936,Macaca radiata,Mammalia,VU,20.0,True,3.8,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4987748236,Axis axis,Mammalia,LC,61.0,True,8.6,road,Thalaikundha - Kallatty - Theppakadu Road
+4994215424,Sus scrofa,Mammalia,LC,5.0,True,0.9,road,Gudallur-Ooty Road
+5036675651,Axis axis,Mammalia,LC,218.0,True,47.1,road,
+5140978258,Axis axis,Mammalia,LC,210.0,True,84.9,road,Thalaikundha - Kallatty - Theppakadu Road
+5838377825,Felis catus,Mammalia,,6.0,True,31.3,road,
+4994003307,Axis axis,Mammalia,LC,205.0,True,5.8,road,
+4994337690,Axis axis,Mammalia,LC,28.0,True,38.0,road,
+5006782404,Macaca radiata,Mammalia,VU,7.0,True,82.6,road,Groves Hill Road
+5006955781,Muntiacus muntjak,Mammalia,,977.0,False,,,
+5007244012,Muntiacus muntjak,Mammalia,,293.0,True,19.5,road,Ketti Valley - Achanakal - Kerada Road
+5007285873,Muntiacus muntjak,Mammalia,,209.0,False,,,
+5007368378,Funambulus palmarum,Mammalia,LC,209.0,False,,,
+5007516216,Macaca radiata,Mammalia,VU,63.0,False,,,
+5007542465,Ratufa indica,Mammalia,LC,55.0,True,32.9,road,Coonoor - Kattabettu Road
+5108469684,Sus scrofa,Mammalia,LC,43.0,True,125.3,track,
+5154143924,Moschiola indica,Mammalia,LC,55.0,True,120.8,track,
+5164567726,Ratufa indica,Mammalia,LC,94.0,False,,,
+5935806200,Funambulus palmarum,Mammalia,LC,122.0,True,25.2,road,Ketti Valley - Achanakal - Kerada Road
+6168472371,Macaca radiata,Mammalia,VU,5.0,True,13.5,road,Coonoor-Mettupalayam Road
+6168472430,Muntiacus muntjak,Mammalia,LC,8.0,True,73.9,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168472489,Bos frontalis,Mammalia,VU,5.0,True,13.1,road,
+6168472503,Macaca radiata,Mammalia,VU,60.0,True,2.1,road,Coonoor - Kattabettu Road
+6168472569,Ratufa indica,Mammalia,LC,7.0,True,3.8,road,
+6168472787,Ratufa indica,Mammalia,LC,9.0,True,0.2,road,
+6168473080,Elephas maximus,Mammalia,EN,5.0,True,1.5,road,Gundlupet-Gudallur-Coimbatore Road
+6168473210,Hystrix indica,Mammalia,LC,8.0,True,21.9,road,
+6168473334,Macaca radiata,Mammalia,VU,4.0,True,291.7,road,
+6168473434,Muntiacus muntjak,Mammalia,LC,13.0,True,305.0,road,
+6168473567,Macaca radiata,Mammalia,VU,5.0,True,4.7,road,Coonoor-Mettupalayam Road
+6168473590,Bos frontalis,Mammalia,VU,9.0,True,27.6,road,Coonoor - Kattabettu Road
+6168473665,Macaca radiata,Mammalia,VU,5.0,True,0.9,road,Coonoor-Mettupalayam Road
+6168473792,Macaca radiata,Mammalia,VU,5.0,True,4.6,road,Coonoor-Mettupalayam Rd
+6168474036,Macaca radiata,Mammalia,VU,5.0,True,0.4,road,Coonoor-Mettupalayam Road
+6168474084,Bos frontalis,Mammalia,VU,5.0,True,0.9,road,
+6168474153,Ratufa indica,Mammalia,LC,4.0,False,,,
+6168474188,Bos frontalis,Mammalia,VU,14.0,True,2.9,road,Kolacombai - Selas - Thuthrumattam Road
+6168474190,Bos frontalis,Mammalia,VU,12.0,True,13.7,road,Kolacombai - Selas - Thuthrumattam Road
+6168475376,Bos frontalis,Mammalia,VU,5.0,True,98.3,road,
+6168475506,Muntiacus muntjak,Mammalia,LC,7.0,True,227.3,road,
+6168475526,Bos frontalis,Mammalia,VU,14.0,True,1.4,road,Barlow's Road
+6168475577,Macaca radiata,Mammalia,VU,10.0,True,14.5,road,Hatherley Road
+6168475695,Bos frontalis,Mammalia,VU,5.0,True,5.2,road,Kolacombai - Selas - Thuthrumattam Road
+6168475757,Viverricula indica,Mammalia,LC,4.0,True,2.1,road,Udhagai - Kaikatty Road
+6168475807,Bos frontalis,Mammalia,VU,5.0,True,12.9,road,Kolacombai - Selas - Thuthrumattam Road
+6168475858,Macaca radiata,Mammalia,VU,6.0,True,4.1,road,Coonoor-Mettupalayam Rd
+6168475878,Macaca radiata,Mammalia,VU,5.0,True,8.5,road,Coonoor-Mettupalayam Road
+6168475953,Ratufa indica,Mammalia,LC,7.0,True,7.0,road,Wellington - Kotagiri Road
+6168476236,Semnopithecus johnii,Mammalia,VU,5.0,True,2.4,road,Gudallur-Ooty Road
+6168476278,Muntiacus muntjak,Mammalia,LC,8.0,False,,,
+6168476532,Macaca radiata,Mammalia,VU,6.0,True,3.5,road,Coonoor-Mettupalayam Road
+6168476570,Semnopithecus priam,Mammalia,NT,6.0,False,,,
+6168476582,Elephas maximus,Mammalia,EN,5.0,True,3.0,road,Gundlupet-Gudallur-Coimbatore Road
+6168476750,Bos frontalis,Mammalia,VU,7.0,True,8.7,road,Coonoor - Kundha Road
+6168476863,Moschiola indica,Mammalia,LC,5.0,True,2.1,road,Kolacombai - Selas - Thuthrumattam Road
+6168477003,Bos frontalis,Mammalia,VU,10.0,True,14.9,road,Kolacombai - Selas - Thuthrumattam Road
+6168477062,Bos frontalis,Mammalia,VU,6.0,True,266.4,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168477169,Bos frontalis,Mammalia,VU,10.0,True,287.9,road,Thuthrumattam-kaikatti-Araihatty-Melur-Bellada-MellurHosatty Rd
+6168477287,Bos frontalis,Mammalia,VU,21.0,True,22.5,road,
+6168477346,Ratufa indica,Mammalia,LC,7.0,True,19.1,road,Wellington - Kotagiri Road
+4039299597,Funambulus tristriatus,Mammalia,LC,9.0,True,37.9,road,
+4039222097,Ratufa indica,Mammalia,LC,205.0,True,5.8,road,
+4039246578,Axis axis,Mammalia,LC,205.0,True,5.8,road,
+4465656346,Macaca radiata,Mammalia,VU,956.0,True,53.5,road,
+4516239190,Muntiacus muntjak,Mammalia,,964.0,True,5.9,road,
+4076208099,Macaca radiata,Mammalia,VU,289.0,True,11.0,road,
+4102629742,Macaca radiata,Mammalia,VU,11.0,True,7.8,road,Coonoor-Mettupalayam Road
+4891908501,Herpestes edwardsi,Mammalia,,51.0,True,352.0,road,
+5087030297,Funambulus palmarum,Mammalia,LC,94.0,True,39.7,road,
+4102593804,Funambulus palmarum,Mammalia,LC,974.0,True,18.2,road,Catherine Falls Road
+4102635813,Sus scrofa,Mammalia,,215.0,True,85.2,road,
+4102639809,Axis axis,Mammalia,LC,215.0,True,85.2,road,
+4102701829,Sus scrofa,Mammalia,,215.0,True,85.2,road,
+4103097804,Axis axis,Mammalia,LC,215.0,True,85.2,road,
+4103199752,Sus scrofa,Mammalia,LC,215.0,True,85.2,road,
+4112185121,Bubalus bubalis,Mammalia,,488.0,True,139.0,road,
+4145662361,Funambulus palmarum,Mammalia,LC,23.0,True,27.0,road,Thalaikundha - Kallatty - Theppakadu Road
+4908531243,Ratufa indica,Mammalia,LC,96.0,True,12.7,road,Gudalur - Sulthan Bathery Road
+4908894568,Macaca radiata,Mammalia,VU,111.0,True,119.0,road,
+4908936725,Macaca radiata,Mammalia,VU,111.0,True,43.8,road,Club Road
+4908973034,Antilope cervicapra,Mammalia,LC,200.0,True,28.9,road,
+4909074488,Funambulus tristriatus,Mammalia,LC,96.0,True,12.7,road,Gudalur - Sulthan Bathery Road
+4909157625,Axis axis,Mammalia,LC,347.0,True,121.8,road,Aachakarai Road
+4946340774,Axis axis,Mammalia,LC,1000.0,True,49.7,road,
+4120970957,Sus scrofa,Mammalia,LC,4.0,True,50.9,track,
+4127015904,Axis axis,Mammalia,LC,205.0,True,5.8,road,
+4127060578,Macaca radiata,Mammalia,VU,205.0,True,5.8,road,
+4133737830,Herpestes edwardsi,Mammalia,,2.0,True,178.6,road,
+4133748788,Axis axis,Mammalia,LC,217.0,True,179.1,road,
+4133821676,Macaca radiata,Mammalia,VU,15.0,True,174.6,road,
+4138210272,Semnopithecus hypoleucos,Mammalia,LC,199.0,True,20.3,road,
+4153472031,Axis axis,Mammalia,LC,4.0,True,1.1,track,
+5069760243,Macaca radiata,Mammalia,VU,145.0,True,43.7,road,Hebron School Driveway
+6195582479,Bubalus bubalis,Mammalia,,562.0,True,39.8,road,
+4430549890,Ratufa indica,Mammalia,LC,209.0,True,13.1,road,Coonoor - Kattabettu Road
+4440976722,Axis axis,Mammalia,LC,105.0,True,0.1,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4453740528,Herpestes vitticollis,Mammalia,,94.0,True,23.6,track,
+4453888230,Sus scrofa,Mammalia,LC,42.0,True,27.9,track,
+4606978612,Macaca radiata,Mammalia,VU,244.0,True,30.9,road,
+4607160455,Axis axis,Mammalia,LC,488.0,True,255.6,road,Thalaikundha - Kallatty - Theppakadu Road
+4607194615,Axis axis,Mammalia,LC,244.0,False,,,
+4607321433,Ratufa indica,Mammalia,,23.0,True,0.4,road,
+4607344767,Herpestes vitticollis,Mammalia,,61.0,True,25.9,road,Club Road
+4987697959,Axis axis,Mammalia,LC,122.0,True,420.0,road,
+6234907732,Axis axis,Mammalia,LC,259.0,True,1.1,track,
+6422416418,Axis axis,Mammalia,LC,202.0,True,50.3,road,
+6422459844,Herpestes vitticollis,Mammalia,,95.0,True,12.1,track,
+4440845057,Lepus nigricollis,Mammalia,LC,473.0,True,28.8,track,
+4453786089,Macaca radiata,Mammalia,VU,3.0,True,6.6,road,Gudallur-Ooty Road
+4465745507,Hystrix indica,Mammalia,LC,25.0,True,4.4,road,
+4596839636,Ratufa indica,Mammalia,LC,100.0,True,52.3,road,Doddabetta - Iduhatty - Kattabettu Road
+5230023586,Semnopithecus hypoleucos,Mammalia,LC,1000.0,True,479.6,road,Kozhikode - Kollegal Highway
+6480887021,Ratufa indica,Mammalia,LC,32.0,True,85.5,road,
+4500528276,Sus scrofa,Mammalia,LC,890.0,True,57.8,road,
+4500805241,Canis aureus,Mammalia,,359.0,True,26.5,road,
+3712682476,Herpestes smithii,Mammalia,,3.0,True,21.2,road,
+3499498697,Macaca radiata,Mammalia,VU,203.0,True,333.9,road,
+4908256824,Axis axis,Mammalia,LC,31.0,True,475.0,road,
+4908521242,Ratufa indica,Mammalia,LC,31.0,True,433.9,road,
+4137742972,Semnopithecus hypoleucos,Mammalia,LC,205.0,True,5.8,road,
+4137789050,Ratufa indica,Mammalia,LC,205.0,True,5.8,road,
+4137977063,Sus scrofa,Mammalia,,205.0,True,5.8,road,
+4138442043,Semnopithecus hypoleucos,Mammalia,LC,205.0,True,5.8,road,
+4847188341,Funambulus palmarum,Mammalia,LC,15.0,True,4.1,road,Doddabetta Road
+3947444919,Macaca radiata,Mammalia,VU,74.0,True,1.1,road,Gundlupet-Gudallur-Coimbatore Rd
+4009775503,Ratufa indica,Mammalia,LC,15.0,True,23.4,road,
+4453836185,Axis axis,Mammalia,LC,488.0,False,,,
+4453936595,Ratufa indica,Mammalia,LC,15.0,True,0.8,road,Doddabetta Road
+3858576853,Macaca radiata,Mammalia,VU,6.0,True,9.6,road,Coonoor-Mettupalayam Road
+3860660820,Macaca radiata,Mammalia,VU,8.0,True,18.3,road,Thalaikundha - Kallatty - Theppakadu Road
+3889129565,Funambulus palmarum,Mammalia,LC,4.0,True,1.3,road,jambukandi road
+3902584973,Ratufa indica,Mammalia,LC,2.0,False,,,
+3902939524,Axis axis,Mammalia,LC,15.0,True,5.0,track,
+6352803541,Lepus nigricollis,Mammalia,LC,208.0,True,2.3,road,
+3923457611,Axis axis,Mammalia,LC,31.0,True,31.1,road,
+3923685564,Sus scrofa,Mammalia,LC,4.0,True,231.9,road,
+3924987734,Ratufa indica,Mammalia,LC,4.0,True,309.6,road,
+3925034767,Axis axis,Mammalia,LC,15.0,True,50.9,road,
+3925040738,Axis axis,Mammalia,LC,15.0,True,25.1,road,
+3925069770,Axis axis,Mammalia,LC,15.0,True,66.2,road,
+3925075752,Macaca radiata,Mammalia,VU,4.0,True,254.2,road,
+3925098756,Ratufa indica,Mammalia,LC,4.0,True,304.4,road,
+3925120751,Axis axis,Mammalia,LC,31.0,True,33.2,road,
+3925124752,Axis axis,Mammalia,LC,15.0,True,28.9,road,
+3925186750,Axis axis,Mammalia,LC,4.0,True,271.6,road,
+3925191695,Axis axis,Mammalia,LC,61.0,True,31.3,road,Thalaikundha - Kallatty - Theppakadu Road
+3925318755,Bubalus bubalis,Mammalia,,4.0,True,49.0,road,
+3925377745,Bubalus bubalis,Mammalia,,8.0,True,71.0,road,
+3925443133,Macaca radiata,Mammalia,VU,68.0,True,260.0,road,Coonoor-Mettupalayam Rd
+3947673601,Funambulus tristriatus,Mammalia,LC,2.0,True,5.8,road,
+3961461707,Megaderma spasma,Mammalia,LC,6.0,True,31.3,road,
+4011725558,Axis axis,Mammalia,LC,31.0,True,31.3,road,
+4134104776,Megaderma spasma,Mammalia,LC,6.0,True,31.3,road,
+3986159011,Ratufa indica,Mammalia,LC,23.0,True,30.9,road,Gundlupet-Gudallur-Coimbatore Road
+3986305160,Funambulus palmarum,Mammalia,LC,63.0,True,19.8,road,Thummanatty-Kappachi-Kambatty-Kattabettu Rd
+3988434990,Ratufa indica,Mammalia,LC,52.0,True,174.4,road,Log Hut Road
+3988566002,Sus scrofa,Mammalia,LC,7.0,True,473.6,road,
+3988570018,Ratufa indica,Mammalia,LC,18.0,True,44.0,road,Log Hut Road
+3988693016,Ratufa indica,Mammalia,LC,8.0,True,318.4,road,
+3988770693,Antilope cervicapra,Mammalia,LC,6.0,True,430.1,road,
+3994349138,Ratufa indica,Mammalia,LC,40.0,True,22.8,road,Log Hut Road
+4018239725,Ratufa indica,Mammalia,LC,4.0,True,265.2,road,
+4009840194,Axis axis,Mammalia,LC,582.0,True,107.0,road,
+4009866241,Ratufa indica,Mammalia,LC,582.0,True,107.0,road,
+3031775054,Sus scrofa,Mammalia,,12.0,True,5.2,road,Gudallur-Ooty Road
+3032146007,Funambulus tristriatus,Mammalia,LC,8.0,True,8.9,road,Gudallur-Ooty Road
+3079734148,Funambulus tristriatus,Mammalia,LC,2.0,True,64.7,road,Forest doemitery road
+3061656986,Ratufa indica,Mammalia,LC,210.0,False,,,
+4132493743,Ratufa indica,Mammalia,LC,301.0,True,24.5,road,
+4132493753,Ratufa indica,Mammalia,LC,301.0,True,24.5,road,
+4516173549,Felis chaus,Mammalia,,5.0,True,118.7,road,
+4132493961,Funambulus sublineatus,Mammalia,VU,301.0,False,,,
+3327756913,Lepus nigricollis,Mammalia,LC,16.0,True,72.2,road,
+3333360632,Ratufa indica,Mammalia,LC,395.0,False,,,
+3759196662,Muntiacus muntjak,Mammalia,,17.0,True,74.4,road,
+4872066460,Herpestes edwardsi,Mammalia,,4.0,True,129.1,road,
+5069715555,Herpestes vitticollis,Mammalia,,3.0,True,1.5,road,
+4132494072,Ratufa indica,Mammalia,LC,301.0,True,24.5,road,
+3391548544,Macaca radiata,Mammalia,VU,457.0,True,287.6,road,Coonoor-Mettupalayam Road
+3456069507,Ratufa indica,Mammalia,LC,3.0,True,6.6,road,Kotagiri - Kodanadu View Point Road
+3456883886,Ratufa indica,Mammalia,LC,16.0,True,5.0,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+4018274459,Ratufa indica,Mammalia,LC,7.0,True,19.2,road,Udhagamandalam - Kotagiri - Mettupalayam - Sathy - Gobi - Erode Road
+6147553511,Ratufa indica,Mammalia,LC,660.0,True,50.4,road,
+2603314094,Sus scrofa,Mammalia,,209.0,True,0.7,road,Gundlupet-Gudallur-Coimbatore Road
+2603348085,Ratufa indica,Mammalia,LC,209.0,True,0.7,road,Gundlupet-Gudallur-Coimbatore Road
+2626663925,Ratufa indica,Mammalia,LC,122.0,True,18.7,road,Ketty - Palada - Selas Road
+2834509175,Hystrix indica,Mammalia,LC,10.0,True,89.7,road,
+2835146960,Axis axis,Mammalia,LC,25.0,True,15.4,road,Thalaikundha - Kallatty - Theppakadu Road
+2838437938,Sus scrofa,Mammalia,LC,10.0,True,22.0,road,Thalaikundha - Kallatty - Theppakadu Road
+2838714876,Axis axis,Mammalia,LC,10.0,True,14.0,road,Gundlupet-Gudallur-Coimbatore Road
+2843652996,Macaca radiata,Mammalia,VU,25.0,True,45.6,road,
+2843748115,Ratufa indica,Mammalia,LC,10.0,True,26.0,road,
+2844050790,Macaca radiata,Mammalia,VU,25.0,True,3.7,road,
+2845044179,Ratufa indica,Mammalia,LC,10.0,True,20.1,road,
+3109222537,Sus scrofa,Mammalia,,2.0,True,19.7,road,
+3112366452,Funambulus palmarum,Mammalia,LC,122.0,True,60.5,road,
+2573856016,Macaca radiata,Mammalia,VU,743.0,True,7.2,railway,Nilgiri Mountain Railway
+2573984507,Macaca radiata,Mammalia,VU,616.0,True,14.4,road,
+2573984584,Macaca radiata,Mammalia,VU,565.0,True,3.0,road,
+2574043468,Macaca radiata,Mammalia,VU,278.0,True,28.4,road,
+2574189201,Macaca radiata,Mammalia,VU,217.0,True,39.7,road,
+2574195059,Macaca radiata,Mammalia,VU,846.0,True,1.2,railway,Nilgiri Mountain Railway
+2576434177,Macaca radiata,Mammalia,VU,229.0,True,364.6,road,
+2596130777,Ratufa indica,Mammalia,LC,215.0,True,85.2,road,
+2596318650,Axis axis,Mammalia,LC,215.0,True,85.2,road,
+2597722891,Herpestes edwardsi,Mammalia,,215.0,True,85.2,road,
+2610950488,Macaca radiata,Mammalia,VU,452.0,True,13.3,railway,Nilgiri Mountain Railway
+2610950489,Macaca radiata,Mammalia,VU,257.0,True,40.6,road,
+2835192688,Axis axis,Mammalia,LC,25.0,True,0.0,road,Thalaikundha - Kallatty - Theppakadu Road
+2838602995,Semnopithecus hypoleucos,Mammalia,,10.0,True,19.6,road,Gundlupet-Gudallur-Coimbatore Rd
+2843091083,Ratufa indica,Mammalia,LC,25.0,True,175.4,road,
+2850578787,Herpestes vitticollis,Mammalia,,349.0,True,22.9,road,
+3109215529,Macaca radiata,Mammalia,VU,4.0,True,12.3,road,
+3109239577,Felis catus,Mammalia,,4.0,True,23.8,road,
+2856552593,Felis chaus,Mammalia,,488.0,False,,,
+2856607752,Herpestes edwardsi,Mammalia,,977.0,True,105.5,road,Udhagai - Avalanchi - Kundha - Thaishola Road
+2860124894,Muntiacus muntjak,Mammalia,,977.0,True,193.3,road,Kennel Club Road
+2883103484,Funambulus tristriatus,Mammalia,LC,6.0,True,31.3,road,
+3018031978,Ratufa indica,Mammalia,LC,200.0,True,57.5,road,
+4132493548,Funambulus sublineatus,Mammalia,VU,301.0,True,75.6,road,
+1990543161,Funambulus palmarum,Mammalia,LC,129.0,True,41.0,road,Coonoor-Mettupalayam Rd
+1990598363,Sus scrofa,Mammalia,LC,201.0,True,16.0,road,Gundlupet-Gudallur-Coimbatore Road
+2294406717,Funambulus palmarum,Mammalia,LC,594.0,True,3.3,road,Coonoor-Mettupalayam Road
+2350429452,Macaca radiata,Mammalia,VU,319.0,True,10.5,road,Coonoor-Mettupalayam Road
+3113477572,Ratufa indica,Mammalia,LC,61.0,True,7.7,road,
+4029210770,Axis axis,Mammalia,LC,205.0,True,5.8,road,
+3307227633,Sus scrofa,Mammalia,LC,244.0,True,69.7,track,
+3307308841,Axis axis,Mammalia,LC,122.0,True,51.5,track,
+3307312808,Axis axis,Mammalia,LC,122.0,True,51.5,track,
+3014003277,Ratufa indica,Mammalia,LC,62.0,False,,,
+3014057239,Axis axis,Mammalia,LC,73.0,True,99.5,track,
+3014104253,Axis axis,Mammalia,LC,78.0,True,236.5,track,
+3343927747,Funambulus tristriatus,Mammalia,LC,2.0,True,43.8,road,
+2626391315,Axis axis,Mammalia,LC,526.0,True,56.8,road,
+3109191851,Macaca radiata,Mammalia,VU,283.0,True,12.0,road,Botanical Garden
+4921948435,Funambulus tristriatus,Mammalia,LC,31.0,True,34.7,road,
+4132493694,Funambulus palmarum,Mammalia,LC,301.0,True,60.8,railway,Nilgiri Mountain Railway
+4132494268,Funambulus palmarum,Mammalia,LC,301.0,True,24.5,road,
+1898787242,Muntiacus muntjak,Mammalia,,210.0,True,345.9,road,
+1914194023,Ratufa indica,Mammalia,LC,210.0,True,345.9,road,
+4132494222,Funambulus sublineatus,Mammalia,VU,301.0,True,2.3,road,Police Station Road
+1837062084,Ratufa indica,Mammalia,LC,10.0,True,175.2,road,
+5074654323,Rusa unicolor,Mammalia,VU,25.0,False,,,
+5074673323,Rusa unicolor,Mammalia,VU,25.0,True,318.6,track,
+5074691322,Rusa unicolor,Mammalia,VU,25.0,True,10.4,track,
+3067730326,Axis axis,Mammalia,LC,608.0,True,22.6,road,Kozhikode - Kollegal Highway
+4852427605,Bubalus bubalis,Mammalia,,61.0,True,152.7,road,
+5897711301,Herpestes vitticollis,Mammalia,,244.0,True,426.9,track,
+2850744285,Ratufa indica,Mammalia,LC,263.0,True,135.6,road,Walker's Hill Road
+3344088833,Ratufa indica,Mammalia,LC,122.0,True,143.7,road,Walker's Hill Road
+2429345242,Sus scrofa,Mammalia,LC,977.0,True,2.1,road,
+2429348006,Macaca radiata,Mammalia,VU,977.0,True,71.4,road,Gundlupet-Gudallur-Coimbatore Rd
+4132493648,Funambulus sublineatus,Mammalia,VU,301.0,False,,,
+2283003170,Ratufa indica,Mammalia,LC,16.0,True,28.4,road,
+2294674106,Ratufa indica,Mammalia,LC,245.0,True,239.2,road,
+2294674112,Ratufa indica,Mammalia,LC,100.0,True,226.3,road,
+2294674323,Muntiacus muntjak,Mammalia,,433.0,True,30.1,road,
+2294674824,Herpestes edwardsi,Mammalia,,100.0,True,5.3,road,
+2294674921,Cynopterus sphinx,Mammalia,LC,100.0,True,202.1,road,
+4606602846,Funambulus palmarum,Mammalia,LC,210.0,True,8.6,road,Kottathara - Goolikadavu Road
+3302394786,Lepus nigricollis,Mammalia,LC,500.0,True,29.7,track,
+4075938693,Axis axis,Mammalia,LC,206.0,True,5.8,road,
+2832853283,Ratufa indica,Mammalia,LC,8.0,True,272.2,road,
+2832930426,Axis axis,Mammalia,LC,5.0,True,1.5,road,
+2836290724,Semnopithecus priam,Mammalia,NT,5.0,True,10.6,road,
+2836532523,Ratufa indica,Mammalia,LC,8.0,True,272.2,road,
+2841918246,Ratufa indica,Mammalia,LC,5.0,True,241.9,road,
+5074659314,Rusa unicolor,Mammalia,VU,5.0,True,11.1,road,
+5074685318,Rusa unicolor,Mammalia,VU,5.0,True,2.8,road,
+4994008179,Macaca radiata,Mammalia,VU,149.0,True,182.0,road,Coonoor-Mettupalayam Rd
+6470672613,Axis axis,Mammalia,LC,500.0,True,2.1,road,Gundlupet-Gudallur-Coimbatore Rd
+3399195877,Funambulus tristriatus,Mammalia,LC,207.0,True,100.3,road,
+4132493545,Funambulus pennantii,Mammalia,LC,301.0,True,2.3,road,Police Station Road
+4163028307,Ratufa indica,Mammalia,LC,301.0,True,96.0,road,
+4132494070,Ratufa indica,Mammalia,LC,301.0,True,0.2,road,Bettam's Road
+4132493611,Funambulus sublineatus,Mammalia,VU,301.0,True,2.3,road,Police Station Road
+4454030086,Macaca radiata,Mammalia,VU,217.0,True,340.2,road,Coonoor-Mettupalayam Rd
+5077068237,Macaca radiata,Mammalia,VU,389.0,True,266.9,road,Gundlupet-Gudallur-Coimbatore Road
+5013647163,Rusa unicolor,Mammalia,,250.0,False,,,
+5013680570,Semnopithecus entellus,Mammalia,LC,250.0,False,,,
+5015396742,Ratufa indica,Mammalia,LC,250.0,False,,,
+5015613870,Rusa alfredi,Mammalia,EN,250.0,False,,,
+5017350255,Elephas maximus,Mammalia,,250.0,False,,,
+5023131996,Bos frontalis,Mammalia,,250.0,False,,,
+2981087718,Sus scrofa,Mammalia,,209.0,True,5.8,road,Sulthan Bathery - Chulliyode Road
+4851917903,Ratufa indica,Mammalia,LC,163.0,True,57.6,road,Walker's Hill Road
+6441324000,Axis axis,Mammalia,LC,122.0,True,47.0,track,
+6441787810,Macaca radiata,Mammalia,VU,15.0,True,23.2,road,Gundlupet-Gudallur-Coimbatore Road
+6441973951,Ratufa indica,Mammalia,LC,31.0,True,434.7,road,
+2814175748,Herpestes vitticollis,Mammalia,,235.0,True,50.4,road,
+4132493379,Ratufa indica,Mammalia,LC,301.0,True,51.3,road,
+4851983996,Macaca radiata,Mammalia,VU,244.0,True,1.9,road,
+4852306897,Axis axis,Mammalia,LC,61.0,True,11.1,road,
+6195822574,Felis chaus,Mammalia,,210.0,True,12.9,road,Avalanche Road
+2818516196,Axis axis,Mammalia,LC,15.0,False,,,
+2818521219,Macaca radiata,Mammalia,VU,2.0,True,11.2,road,Gudallur-Ooty Road
+2818529182,Sus scrofa,Mammalia,,31.0,False,,,
+2818589193,Axis axis,Mammalia,LC,31.0,False,,,
+2818719130,Axis axis,Mammalia,LC,8.0,False,,,
+2818727169,Sus scrofa,Mammalia,,61.0,False,,,
+2818745154,Axis axis,Mammalia,LC,15.0,True,55.5,road,Gudallur-Ooty Road
+2818748202,Herpestes smithii,Mammalia,,61.0,False,,,
+2818762171,Lepus nigricollis,Mammalia,LC,31.0,True,337.3,road,
+5014411792,Herpestes vitticollis,Mammalia,LC,250.0,True,86.5,road,Calicut - Vythiri - Gudalur Road
+5020651287,Melursus ursinus,Mammalia,VU,250.0,True,86.5,road,Calicut - Vythiri - Gudalur Road
+5025233060,Ratufa indica,Mammalia,LC,250.0,True,6.0,road,Gundlupet-Gudallur-Coimbatore Road
+2832744055,Herpestes edwardsi,Mammalia,LC,25.0,True,1.2,road,Thalaikundha - Kallatty - Theppakadu Road
+2832918917,Axis axis,Mammalia,LC,100.0,True,14.0,road,Thalaikundha - Kallatty - Theppakadu Road
+2835910117,Axis axis,Mammalia,LC,25.0,True,27.6,road,Gundlupet-Gudallur-Coimbatore Road
+2836315039,Ratufa indica,Mammalia,LC,100.0,True,2.4,road,Thalaikundha - Kallatty - Theppakadu Road
+2836525987,Ratufa indica,Mammalia,LC,25.0,True,5.9,road,
+2839795039,Moschiola indica,Mammalia,LC,100.0,True,6.7,road,
+2839813834,Axis axis,Mammalia,LC,25.0,True,1.7,road,Gundlupet-Gudallur-Coimbatore Road
+2839843229,Ratufa indica,Mammalia,LC,25.0,True,5.9,road,
+2840051941,Semnopithecus priam,Mammalia,NT,25.0,True,390.8,road,
+2840103944,Sus scrofa,Mammalia,LC,25.0,True,0.8,road,Thalaikundha - Kallatty - Theppakadu Road
+2840256082,Axis axis,Mammalia,LC,25.0,True,1.2,road,Thalaikundha - Kallatty - Theppakadu Road
+2840453982,Semnopithecus priam,Mammalia,NT,10.0,True,47.4,road,
+2842031799,Herpestes edwardsi,Mammalia,LC,25.0,True,1.2,road,Thalaikundha - Kallatty - Theppakadu Road
+2842690946,Semnopithecus hypoleucos,Mammalia,,25.0,True,3.4,road,
+2843450914,Macaca radiata,Mammalia,VU,25.0,True,0.5,road,Gudallur-Ooty Road
+4132494289,Funambulus sublineatus,Mammalia,VU,301.0,False,,,
+4421110594,Ratufa indica,Mammalia,LC,20.0,True,152.3,road,
+4421143532,Axis axis,Mammalia,LC,30.0,True,157.0,road,
+4460236463,Golunda ellioti,Mammalia,LC,25.0,True,1.6,road,
+4506261597,Axis axis,Mammalia,LC,210.0,True,375.4,road,
+1453282972,Ratufa indica,Mammalia,LC,5.0,True,88.9,road,Mudumalai Wild Inn
+1453292813,Viverricula indica,Mammalia,LC,5.0,True,1.0,road,
+1453293084,Sus scrofa,Mammalia,LC,10.0,True,2.0,road,
+1571065121,Herpestes vitticollis,Mammalia,,30.0,True,0.7,road,Thalaikundha - Kallatty - Theppakadu Road
+1831125683,Herpestes edwardsi,Mammalia,,5.0,True,0.3,road,Gundlupet-Gudallur-Coimbatore Road
+1891356347,Muntiacus muntjak,Mammalia,,10.0,True,15.5,road,Gudallur-Ooty Road
+1990507995,Axis axis,Mammalia,LC,400.0,True,8.6,road,Thalaikundha - Kallatty - Theppakadu Road
+2901731303,Hystrix indica,Mammalia,LC,5.0,True,250.7,road,
+3307121608,Axis axis,Mammalia,LC,977.0,True,115.5,road,Gundlupet-Gudallur-Coimbatore Road
+3947757385,Axis axis,Mammalia,LC,244.0,True,111.4,track,
+2850622365,Lepus nigricollis,Mammalia,LC,837.0,True,219.5,road,
+2451742084,Semnopithecus hypoleucos,Mammalia,LC,23.0,True,27.3,road,
+2451742357,Herpestes edwardsi,Mammalia,,23.0,True,27.3,road,
+4516256353,Funambulus palmarum,Mammalia,LC,215.0,True,85.2,road,
+4516256354,Ratufa indica,Mammalia,LC,215.0,True,85.2,road,
+4516713767,Muntiacus muntjak,Mammalia,,254.0,True,375.4,road,
+5890183936,Lepus nigricollis,Mammalia,LC,31.0,True,8.1,road,
+2283082237,Funambulus palmarum,Mammalia,LC,61.0,True,14.8,road,
+2832676005,Herpestes edwardsi,Mammalia,LC,10.0,True,117.7,road,
+2832725038,Ratufa indica,Mammalia,LC,10.0,True,117.7,road,
+2836080184,Axis axis,Mammalia,LC,100.0,True,5.1,road,
+2836261986,Ratufa indica,Mammalia,LC,10.0,True,117.7,road,
+2839385088,Axis axis,Mammalia,LC,10.0,True,117.7,road,
+2839885043,Sus scrofa,Mammalia,LC,100.0,True,5.1,road,
+2840690065,Semnopithecus priam,Mammalia,NT,10.0,True,127.7,road,
+2841131184,Axis axis,Mammalia,LC,10.0,True,117.7,road,
+2841269165,Axis axis,Mammalia,LC,100.0,True,82.2,road,
+2842358179,Ratufa indica,Mammalia,LC,10.0,True,127.7,road,
