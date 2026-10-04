@@ -1,0 +1,10 @@
+dataset,file,rows_raw,geometry,size_kb,modified,source
+firms_viirs,data/raw/firms_viirs.csv,1765,Point (from lat/lon columns),161.9,2026-10-04T13:49:23,"NASA FIRMS VIIRS 375 m, Standard Processing / public domain"
+gbif_sightings,data/raw/gbif_sightings.csv,2670,Point (from lat/lon columns),615.5,2026-10-04T13:19:57,GBIF.org occurrence search / CC-BY
+osm_farmland,data/raw/osm_farmland.geojson,814,LineString|Polygon,707.7,2026-10-03T19:47:29,OpenStreetMap contributors / ODbL (via Overpass API)
+osm_forests,data/raw/osm_forests.geojson,167,MultiPolygon|Point|Polygon,1441.8,2026-10-03T19:49:18,OpenStreetMap contributors / ODbL (via Overpass API)
+osm_protected_areas,data/raw/osm_protected_areas.geojson,15,Point|Polygon,101.1,2026-10-03T19:50:50,OpenStreetMap contributors / ODbL (via Overpass API)
+osm_rivers,data/raw/osm_rivers.geojson,2078,LineString,1973.2,2026-10-03T18:18:13,OpenStreetMap contributors / ODbL (via Overpass API)
+osm_transport,data/raw/osm_transport.geojson,37814,LineString|Polygon,20067.1,2026-10-03T19:52:43,OpenStreetMap contributors / ODbL (via Overpass API)
+osm_villages,data/raw/osm_villages.geojson,421,Point|Polygon,125.5,2026-10-03T18:11:18,OpenStreetMap contributors / ODbL (via Overpass API)
+osm_water_bodies,data/raw/osm_water_bodies.geojson,1035,LineString|Polygon,1318.1,2026-10-03T18:21:04,OpenStreetMap contributors / ODbL (via Overpass API)
