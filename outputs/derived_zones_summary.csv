@@ -1,0 +1,5 @@
+zone_type,input_count,n_parts,area_km2,size_mb
+habitat_block,119,23,3519.8029,0.14
+burn_risk_footprint,1564,113,1050.8785,0.1
+habitat_buffer,1,3,5224.5652,0.02
+critical_zone,2,97,861.6905,0.09

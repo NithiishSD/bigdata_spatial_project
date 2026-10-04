@@ -37,6 +37,7 @@ SIMPLIFY_TOLERANCE_M = 10     # polygon simplification, applied in the metric CR
 COORD_PRECISION = 6           # decimal places kept on stored coordinates
 GBIF_MAX_UNCERTAINTY_M = 1000 # discard sightings vaguer than this
 EARTH_RADIUS_KM = 6378.1      # $centerSphere wants radians = km / this  $maxDistance with $nearSphere on GeoJSON is in metres, but $centerSphere takes a radius in radians.
+MIN_HABITAT_BLOCK_KM2 = 1.0  # discard habitat fragments smaller than this (km2)
 
 #secerets
 
@@ -59,6 +60,10 @@ COLLECTIONS = {
     "farmland": "polygon",
     "derived_zones": "polygon",
 }
+
+# Synthetic collection used only by the index benchmark. Not a real theme, so it
+# is kept out of COLLECTIONS and never appears in the load/verify reports.
+BENCH_COLLECTION = "bench_points"
 
 #these collectoins define the validation of datatype for each theme/location type since OSM is messy and provide a lot of data for a single request so to remove unnecessay we go for this
 #GIS (Geographic Information System)
