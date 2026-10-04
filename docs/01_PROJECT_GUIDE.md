@@ -152,6 +152,10 @@ A good index gives `totalDocsExamined` close to `nReturned`. A collection scan g
 | UTM 43N for metric ops | Degrees | Buffers and areas in metres must be accurate. |
 | VIIRS over MODIS | MODIS 1 km | VIIRS 375 m pixels → finer hotspot locations. |
 | Store derived zones in Mongo | Keep in Python only | Lets MongoDB query the union results — required by the brief. |
+| Develop on local `mongod`, re-run on Atlas for final results | Atlas from day one | Identical behaviour for `2dsphere`, `$nearSphere`, `$geoWithin` and `explain()`, but no network latency per query while iterating; the final numbers and screenshots still come from Atlas. |
+| Python 3.14 | 3.12 (as originally planned) | Only 3.10 and 3.14 available on the dev machine; every dependency ships a cp314 wheel. |
+| Keep farmland as a tenth collection | Cut it (it is on the time-saving list) | A polygon layer costs no new code — it reuses the forests/water path — and farmland against forest edge is where human–wildlife conflict shows up. |
+| Numbered scripts `00`–`09`, one per phase | Fewer, combined scripts | Each phase is separately re-runnable, which makes the demo and the debugging story much easier; a standalone index step also gives a clean place to show that `$nearSphere` fails without a `2dsphere` index. |
 
 ## 7. Limitations to acknowledge (examiners like honesty)
 

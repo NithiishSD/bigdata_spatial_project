@@ -9,7 +9,7 @@ BBOX = (76.20, 11.10, 77.10, 11.70)   # west, south, east, north  (The Nilgiris)
 > Before fetching everything, **do a tiny test** with a small bbox (e.g. `(76.65, 11.35, 76.75, 11.45)`
 > around Ooty) to check your code, then run the full region.
 
-Write each fetcher in `forestgeo/fetch_*.py` and call them from `scripts/01_fetch_data.py`.
+Write each fetcher in `forestgeo/fetch_*.py` and call them from `scripts/fetch_data.py`.
 
 ---
 

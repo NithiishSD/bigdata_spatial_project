@@ -20,8 +20,14 @@
 | 14 | References | OSM, FIRMS, GBIF citation, MongoDB docs, Shapely | — |
 
 **Writing tip:** every result paragraph = *question → method (one line) → number → meaning*.
-e.g. "38 of 412 villages (9 %) lie inside the 1 km burn-risk footprint; 21 of these are also within
-2 km of the continuous habitat block, forming the critical zone."
+e.g. "111 of 421 villages (26 %) lie inside the 1 km burn-risk footprint; 79 of these are also within
+2 km of the continuous habitat block, forming the 862 km² critical zone."
+
+**Real headline numbers (2026-10-04 run)** — use these, not estimates:
+46,779 raw features → 46,429 valid, 0 rejected · 9 protected areas · 1,564 hotspots ·
+2,661 sightings (72 species) · habitat block 119 polygons → 23 blocks, 3,520 km² ·
+burn footprint 1,051 km² · critical zone 862 km² · 79 of 421 villages at risk ·
+index 180× faster at 0.2 % selectivity, 1.3× at 25 %.
 
 ## 2. Figures checklist
 

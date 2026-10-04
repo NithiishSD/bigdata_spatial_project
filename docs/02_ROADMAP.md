@@ -39,9 +39,9 @@ Stretch  (optional extras) ................ ∞
 - [x] `cp .env.example .env` and fill `MONGODB_URI`, `FIRMS_MAP_KEY`
 - [x] Create folders: `forestgeo/ scripts/ data/raw data/processed outputs tests`
 - [x] Write `forestgeo/config.py` (region bbox, CRS codes, collection names) and `forestgeo/db.py`
-- [x] Write & run `scripts/00_check_connection.py` → prints server version and `ping: ok`
+- [x] Write & run `scripts/check_connection.py` → prints server version and `ping: ok`
 
-**DoD:** `python scripts/00_check_connection.py` prints `{'ok': 1.0}`; `.env` is git-ignored.
+**DoD:** `python scripts/check_connection.py` prints `{'ok': 1.0}`; `.env` is git-ignored.
 
 Starter `forestgeo/db.py`:
 ```python
