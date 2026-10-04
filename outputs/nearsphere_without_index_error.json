@@ -1,0 +1,5 @@
+{
+  "operation": "$nearSphere on a collection with no 2dsphere index",
+  "error": "error processing query: ns=forestgeo._index_probe limit=1Tree: GEONEAR  field=geometry maxdist=1.79769e+308 isNearSphere=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: unable to find index for $geoNear query",
+  "note": "$nearSphere/$near/$geoNear require a geospatial index. $geoWithin and $geoIntersects do not - they fall back to a collection scan."
+}

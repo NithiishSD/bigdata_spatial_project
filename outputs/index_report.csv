@@ -1,0 +1,11 @@
+collection,count,geom_types,has_2dsphere,n_indexes,indexes
+villages,421,Point:421,True,3,"_id_,geometry_2dsphere,name_1"
+fire_hotspots,1564,Point:1564,True,5,"_id_,geometry_2dsphere,acq_datetime_1,frp_-1,confidence_1"
+sightings,2661,Point:2661,True,6,"_id_,geometry_2dsphere,class_1,species_1,precision_1,is_roadkill_1"
+transport,37665,LineString:37498|MultiLineString:167,True,3,"_id_,geometry_2dsphere,kind_1"
+rivers,2057,LineString:2054|MultiLineString:3,True,2,"_id_,geometry_2dsphere"
+protected_areas,9,Polygon:6|MultiPolygon:3,True,3,"_id_,geometry_2dsphere,name_1"
+forests,119,Polygon:113|MultiPolygon:6,True,2,"_id_,geometry_2dsphere"
+water_bodies,901,Polygon:901,True,2,"_id_,geometry_2dsphere"
+farmland,811,Polygon:808|MultiPolygon:3,True,2,"_id_,geometry_2dsphere"
+derived_zones,4,MultiPolygon:4,True,3,"_id_,geometry_2dsphere,zone_type_1"
