@@ -1,0 +1,123 @@
+{
+  "explainVersion": "1",
+  "queryPlanner": {
+    "namespace": "forestgeo.sightings",
+    "parsedQuery": {
+      "geometry": {
+        "$geoWithin": {
+          "$centerSphere": [
+            [
+              76.7,
+              11.41
+            ],
+            0.0007839325190887568
+          ]
+        }
+      }
+    },
+    "indexFilterSet": false,
+    "queryHash": "EDC5A2BF",
+    "planCacheShapeHash": "EDC5A2BF",
+    "planCacheKey": "1FCABB68",
+    "optimizationTimeMillis": 0,
+    "maxIndexedOrSolutionsReached": false,
+    "maxIndexedAndSolutionsReached": false,
+    "maxScansToExplodeReached": false,
+    "prunedSimilarIndexes": false,
+    "winningPlan": {
+      "isCached": false,
+      "stage": "COLLSCAN",
+      "filter": {
+        "geometry": {
+          "$geoWithin": {
+            "$centerSphere": [
+              [
+                76.7,
+                11.41
+              ],
+              0.0007839325190887568
+            ]
+          }
+        }
+      },
+      "direction": "forward"
+    },
+    "rejectedPlans": []
+  },
+  "executionStats": {
+    "executionSuccess": true,
+    "nReturned": 114,
+    "executionTimeMillis": 2,
+    "totalKeysExamined": 0,
+    "totalDocsExamined": 2661,
+    "executionStages": {
+      "isCached": false,
+      "stage": "COLLSCAN",
+      "filter": {
+        "geometry": {
+          "$geoWithin": {
+            "$centerSphere": [
+              [
+                76.7,
+                11.41
+              ],
+              0.0007839325190887568
+            ]
+          }
+        }
+      },
+      "nReturned": 114,
+      "executionTimeMillisEstimate": 0,
+      "works": 2662,
+      "advanced": 114,
+      "needTime": 2547,
+      "needYield": 0,
+      "saveState": 0,
+      "restoreState": 0,
+      "isEOF": 1,
+      "direction": "forward",
+      "docsExamined": 2661
+    },
+    "allPlansExecution": []
+  },
+  "queryShapeHash": "BAAE6158887A0C1C4E2EAB4A9397F43BF859C739A5D31D6771ED80B759975291",
+  "command": {
+    "find": "sightings",
+    "filter": {
+      "geometry": {
+        "$geoWithin": {
+          "$centerSphere": [
+            [
+              76.7,
+              11.41
+            ],
+            0.0007839325190887568
+          ]
+        }
+      }
+    },
+    "hint": {
+      "$natural": 1
+    },
+    "$db": "forestgeo"
+  },
+  "serverInfo": {
+    "host": "nithiish-pc",
+    "port": 27017,
+    "version": "8.0.32",
+    "gitVersion": "f9eb55a7cc900f33a722a5b32a0fdbf54385c749"
+  },
+  "serverParameters": {
+    "internalQueryFacetBufferSizeBytes": 104857600,
+    "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+    "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+    "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+    "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+    "internalQueryProhibitBlockingMergeOnMongoS": 0,
+    "internalQueryMaxAddToSetBytes": 104857600,
+    "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+    "internalQueryFrameworkControl": "trySbeRestricted",
+    "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+  },
+  "ok": 1.0
+}

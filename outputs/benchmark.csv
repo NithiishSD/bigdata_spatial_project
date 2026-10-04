@@ -1,0 +1,17 @@
+size,selectivity,mode,stage,n_returned,pct_returned,docs_examined,keys_examined,millis_median
+10000,selective (~0.2%),indexed (2dsphere),IXSCAN,20,0.2,30,55,0
+10000,selective (~0.2%),COLLSCAN,COLLSCAN,20,0.2,10000,0,7
+10000,broad (~25%),indexed (2dsphere),IXSCAN,2423,24.23,3358,3373,4
+10000,broad (~25%),COLLSCAN,COLLSCAN,2423,24.23,10000,0,7
+50000,selective (~0.2%),indexed (2dsphere),IXSCAN,107,0.214,161,188,0
+50000,selective (~0.2%),COLLSCAN,COLLSCAN,107,0.214,50000,0,36
+50000,broad (~25%),indexed (2dsphere),IXSCAN,12439,24.878,16996,17011,25
+50000,broad (~25%),COLLSCAN,COLLSCAN,12439,24.878,50000,0,39
+100000,selective (~0.2%),indexed (2dsphere),IXSCAN,220,0.22,332,360,0
+100000,selective (~0.2%),COLLSCAN,COLLSCAN,220,0.22,100000,0,72
+100000,broad (~25%),indexed (2dsphere),IXSCAN,24878,24.878,33940,33955,55
+100000,broad (~25%),COLLSCAN,COLLSCAN,24878,24.878,100000,0,79
+250000,selective (~0.2%),indexed (2dsphere),IXSCAN,493,0.197,748,778,1
+250000,selective (~0.2%),COLLSCAN,COLLSCAN,493,0.197,250000,0,183
+250000,broad (~25%),indexed (2dsphere),IXSCAN,62220,24.888,84972,84987,153
+250000,broad (~25%),COLLSCAN,COLLSCAN,62220,24.888,250000,0,197
