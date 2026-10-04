@@ -1,0 +1,422 @@
+village,place,lon,lat,n_hotspots_5km,nearest_hotspot_m,n_sightings_5km,in_burn_footprint,in_habitat_buffer,in_critical_zone,risk_score
+Thoraihatty,village,76.756949,11.477381,239,371.8,7,True,True,True,98.9
+Kenkumudi hatty,village,76.776244,11.487982,221,281.7,7,True,True,True,98.8
+Morakkattay Hatty,village,76.770831,11.474443,218,379.1,7,True,True,True,98.4
+Ebbanadu hatty,village,76.77017,11.492059,237,625.9,7,True,True,True,98.1
+Chinnacoonoor,village,76.7396,11.479358,161,286.6,3,True,True,True,97.3
+Iduhatty,village,76.776688,11.463032,194,746.2,3,True,True,True,96.8
+Marakal,village,76.735449,11.461101,133,243.4,10,True,True,True,96.6
+Mavukallu,village,76.712723,11.463069,129,189.5,21,True,True,True,96.6
+Dheenatty,village,76.797062,11.46277,164,662.7,3,True,True,True,96.3
+Anikorai,village,76.73246,11.458648,120,263.1,19,True,True,True,96.1
+Kavilorai,village,76.712765,11.466334,137,522.7,26,True,True,True,95.9
+(unnamed),village,76.812565,11.470919,172,903.5,3,True,True,True,95.8
+Hallati Mathalaatti,village,76.714108,11.457122,109,257.9,23,True,True,True,95.7
+(unnamed),village,76.785254,11.452568,130,532.2,3,True,True,True,95.6
+Benthatty,village,76.730687,11.484041,136,718.0,46,True,True,True,95.3
+Kookalthurai,village,76.824356,11.482842,153,959.5,3,True,True,True,95.1
+Hullathi,village,76.695902,11.477211,117,616.7,70,True,True,True,94.9
+Naduhaaty,village,76.714395,11.454935,102,483.3,21,True,True,True,94.7
+Odayaratty,village,76.716875,11.477421,125,937.3,57,True,True,True,94.2
+Kadai Hatty,village,76.714042,11.45395,96,598.1,21,True,True,True,94.1
+MelMalikorai,village,76.700468,11.460845,90,519.4,25,True,True,True,94.0
+Kilmalikorai,village,76.703367,11.460951,98,701.3,24,True,True,True,93.9
+Dhavani,village,76.699992,11.453566,73,343.6,22,True,True,True,93.6
+Hullathi Mellur,village,76.697539,11.47182,110,959.4,51,True,True,True,93.6
+T R Bazaar,village,76.562413,11.466562,70,451.6,10,True,True,True,93.1
+Thalaikundah,village,76.673621,11.44738,78,626.8,13,True,True,True,93.1
+Jakkalorai hatty,village,76.694715,11.454721,72,492.5,20,True,True,True,93.1
+Kombarikkai,village,76.712753,11.452409,82,728.7,24,True,True,True,93.0
+Kappachi,village,76.764016,11.435119,57,303.4,14,True,True,True,92.6
+Kavaratty கவரட்டி,village,76.693485,11.455168,69,604.6,19,True,True,True,92.6
+Thummanda,village,76.766994,11.429945,46,78.6,14,True,True,True,92.3
+Kavaratty,village,76.692815,11.45529,68,673.1,20,True,True,True,92.3
+Odakoadhu,village,76.694074,11.450629,63,832.9,22,True,True,True,91.5
+Kambatty,village,76.780529,11.42972,46,403.1,1,True,True,True,91.4
+Thummanatty,village,76.758905,11.428449,44,347.4,15,True,True,True,91.3
+Morigal hatty,village,76.771573,11.43025,48,552.7,10,True,True,True,91.1
+Baralatty,village,76.773708,11.430449,48,598.4,7,True,True,True,91.0
+Kulisholai,village,76.691598,11.439476,55,774.3,25,True,True,True,91.0
+Naduvattam,village,76.544376,11.479888,50,666.3,8,True,True,True,90.9
+(unnamed),hamlet,76.837671,11.489151,56,932.7,4,True,True,True,90.6
+(unnamed),hamlet,76.842177,11.485303,30,424.0,3,True,True,True,89.4
+Uyilatty,hamlet,76.835911,11.466019,39,936.5,12,True,True,True,89.0
+Keradamattam,hamlet,76.900134,11.49459,28,490.7,3,True,True,True,88.9
+Gandhinagar,hamlet,76.913019,11.519748,27,545.1,1,True,True,True,88.6
+Gandhinagar,hamlet,76.912818,11.519617,27,557.5,1,True,True,True,88.5
+Devarshola,village,76.440301,11.543846,24,379.9,12,True,True,True,88.5
+Anthiyarai,hamlet,76.981317,11.443763,21,532.5,2,True,True,True,87.5
+Unichantham SC,hamlet,76.294361,11.385667,18,379.0,0,True,True,True,87.3
+Naragiri,hamlet,76.845803,11.467933,26,913.7,12,True,True,True,87.3
+Unichantham ST Colony,hamlet,76.295071,11.385491,18,412.0,0,True,True,True,87.2
+Nellakotta,village,76.416983,11.552771,20,567.1,11,True,True,True,87.2
+Pallippadi ST Colony,hamlet,76.296228,11.384921,18,517.4,0,True,True,True,86.9
+Keel Oden,hamlet,76.875029,11.479478,16,411.8,4,True,True,True,86.7
+Odenhatti,hamlet,76.872497,11.476744,17,482.3,9,True,True,True,86.7
+Nedunkayam Colony,village,76.337531,11.292878,17,538.7,0,True,True,True,86.6
+Paambarai,village,76.975747,11.45831,21,871.6,2,True,True,True,86.5
+Chembankolli Colony,hamlet,76.280641,11.399864,20,863.5,0,True,True,True,86.3
+Chembakolli,village,76.524932,11.517386,16,710.6,34,True,True,True,85.8
+Padanthorai,village,76.462291,11.528922,13,571.8,11,True,True,True,85.3
+Munnanad,village,76.337141,11.577618,14,705.5,0,True,True,True,85.2
+Thorapalli,village,76.524559,11.533534,15,890.0,37,True,True,True,85.0
+Puthurvayal,village,76.505655,11.527478,16,986.4,28,True,True,True,85.0
+Kottad,village,76.350757,11.573613,14,774.2,0,True,True,True,85.0
+Ketti Kerada,village,76.715091,11.375547,10,364.4,34,True,True,True,84.8
+Oranalli,village,76.718621,11.345569,11,651.1,41,True,True,True,84.4
+Thorajada,village,76.722301,11.378412,12,780.6,42,True,True,True,84.4
+Periya Bikkatty,village,76.751302,11.374323,13,937.0,22,True,True,True,84.2
+Achanakal hatty,village,76.722481,11.381942,12,871.3,42,True,True,True,84.1
+Kekkatty,village,76.744999,11.369792,11,740.4,20,True,True,True,84.1
+Kollanimattam,village,76.721602,11.34354,11,751.7,45,True,True,True,84.1
+Kittampalayam,village,76.92246,11.263151,12,980.3,0,True,True,True,83.8
+Dasampalayam,village,76.923673,11.289649,9,786.6,4,True,True,True,83.1
+Kurumbanur,village,76.927159,11.282311,10,963.3,3,True,True,True,83.0
+Choladi,village,76.389969,11.556544,9,848.2,2,True,True,True,83.0
+Chittepalayam,village,77.062193,11.364316,7,655.7,0,True,True,True,82.5
+RamaeGounden Pudhur,village,76.922368,11.298448,8,832.2,5,True,True,True,82.5
+Thekkampatti,village,76.886821,11.256389,8,969.2,0,True,True,True,82.1
+Thekkampatti,village,76.887116,11.256567,8,968.7,0,True,True,True,82.1
+Muthanga,village,76.361914,11.671455,7,868.1,20,True,True,True,81.9
+Thuneri,village,76.751687,11.46131,166,202.6,3,True,False,False,62.7
+Kodumuddi hatty,village,76.763415,11.465859,198,645.7,6,True,False,False,62.2
+Kadanad,village,76.718316,11.460719,131,120.7,20,True,False,False,61.9
+Muratala hatty,village,76.76561,11.461629,178,879.8,6,True,False,False,61.0
+Beragal hatty,village,76.76227,11.458054,144,660.6,6,True,False,False,60.7
+(unnamed),village,76.788671,11.446641,105,526.9,3,True,False,False,59.7
+Ajjoor,village,76.795764,11.446209,98,817.9,3,True,False,False,58.5
+Billkombai,village,76.802182,11.434979,43,779.0,3,True,False,False,54.9
+Pororai hatty,village,76.756843,11.360397,18,434.5,43,True,False,False,52.1
+Kadakodu,hamlet,76.848271,11.444884,20,737.1,26,True,False,False,51.7
+Hubbtahala,village,76.765146,11.359785,15,488.4,57,True,False,False,51.2
+Old Aruvankadu,village,76.753546,11.367393,11,366.7,25,True,False,False,50.2
+Dhimbatty,village,76.850975,11.440173,14,796.2,28,True,False,False,50.0
+Kammandu,village,76.72021,11.370185,11,476.8,22,True,False,False,49.9
+Mukkatty,village,76.745884,11.365618,11,508.3,20,True,False,False,49.8
+Karamadai,town,76.960077,11.239318,8,92.1,0,True,False,False,49.7
+Kerkandhy,village,76.745533,11.368189,11,600.1,19,True,False,False,49.5
+Karamadai,town,76.961132,11.23995,8,213.3,0,True,False,False,49.4
+Kothangatty Hatty,village,76.746635,11.356754,11,731.9,18,True,False,False,49.1
+mangalakaraipudur,village,76.932223,11.255564,11,784.7,0,True,False,False,49.0
+Kannerimukku,village,76.856913,11.43949,9,742.4,28,True,False,False,48.3
+Uppatti,village,76.35536,11.513916,6,194.9,0,True,False,False,48.3
+arasappanur,village,76.911883,11.254403,10,891.9,0,True,False,False,48.3
+kallipalayam,village,76.987521,11.230407,6,365.6,1,True,False,False,47.8
+Thanthanad,village,76.846297,11.432833,8,820.6,30,True,False,False,47.6
+Myladi,hamlet,76.234863,11.301855,7,953.8,5,True,False,False,46.6
+Kotagiri,town,76.865821,11.423043,5,810.0,37,True,False,False,45.7
+Pachapalayam,village,77.092632,11.125445,5,873.1,0,True,False,False,45.6
+Serayampalayam,village,77.083519,11.102362,3,466.9,0,True,False,False,44.9
+Kundah,town,76.649892,11.280991,4,856.1,6,True,False,False,44.8
+Edakadu,village,76.639057,11.297365,4,971.0,4,True,False,False,44.4
+vadavalli,village,77.006281,11.248708,4,979.3,0,True,False,False,44.4
+Pykara,village,76.603506,11.466415,183,1139.3,6,False,True,False,35.4
+Glenmorgan,village,76.608045,11.498693,146,1042.7,25,False,True,False,34.6
+(unnamed),hamlet,76.824453,11.486586,156,1151.8,3,False,True,False,34.6
+(unnamed),hamlet,76.826985,11.488478,143,1056.2,3,False,True,False,34.5
+(unnamed),hamlet,76.832049,11.490665,113,1015.3,3,False,True,False,33.6
+Kagguchi,village,76.803902,11.451577,98,1030.9,3,False,True,False,32.9
+Karabillu,village,76.692966,11.470954,101,1310.1,48,False,True,False,32.2
+Melkundah,village,76.613966,11.226682,138,1796.5,14,False,True,False,32.1
+Kanakombai,village,76.774865,11.441204,104,1377.8,0,False,False,False,32.1
+Kovilmedu,village,76.713176,11.444815,63,1224.4,26,False,True,False,30.3
+Alagarmalai,village,76.67782,11.457723,73,1492.5,12,False,True,False,30.2
+Kenthorai,village,76.751432,11.437524,59,1297.4,24,False,True,False,29.8
+Yekuni,village,76.686252,11.46814,73,1630.1,32,False,True,False,29.7
+Kookal,village,76.820096,11.459012,80,1900.6,4,False,False,False,29.3
+Bickatty,village,76.684953,11.465332,70,1811.9,25,False,True,False,29.0
+Adasolai,village,76.718152,11.440066,63,1692.5,27,False,True,False,28.9
+Byangi,village,76.819776,11.448789,51,1571.2,10,False,False,False,28.3
+Ottabettu,hamlet,76.736459,11.426912,49,1536.6,28,False,True,False,28.2
+Kalhatty,village,76.681511,11.462551,65,2012.0,15,False,True,False,28.1
+ThaiSholai,village,76.622503,11.233871,102,2681.6,15,False,True,False,28.1
+Kadasholai,hamlet,76.967703,11.464937,38,1349.7,1,False,True,False,27.7
+Kundachappai Haaty,village,76.749296,11.424311,38,1406.2,25,False,True,False,27.5
+T. Main Hatty,village,76.787567,11.424799,28,1075.6,3,False,True,False,27.1
+Kallatti,village,76.820481,11.436448,28,1334.9,17,False,False,False,26.4
+Kovli Medu,village,76.801458,11.426152,32,1560.2,3,False,True,False,26.3
+Kattabettu,village,76.811027,11.412131,18,1026.7,13,False,True,False,25.4
+Kercombai,hamlet,76.873055,11.465452,18,1054.6,16,False,True,False,25.3
+Nedugula,hamlet,76.890478,11.476324,24,1482.4,4,False,False,False,25.2
+Beragani,hamlet,76.861124,11.477417,20,1275.0,7,False,True,False,25.1
+Mayfield,village,76.43446,11.556989,21,1347.1,12,False,True,False,25.1
+Palemad,village,76.308019,11.385961,18,1198.2,0,False,True,False,24.8
+Melkavatti,hamlet,76.658347,11.386065,32,2141.8,9,False,True,False,24.5
+34 ST Colony,hamlet,76.279552,11.391891,20,1456.4,0,False,True,False,24.5
+Uthirakulam Colony,hamlet,76.280467,11.389424,20,1485.0,0,False,True,False,24.4
+Buttercombai,village,76.741389,11.417272,27,2002.8,29,False,True,False,24.2
+Uthirakulam Colony,hamlet,76.281157,11.385068,19,1477.6,0,False,True,False,24.2
+Ellada,hamlet,76.907497,11.478669,27,2151.7,3,False,True,False,23.7
+Haliyur,hamlet,76.856682,11.443002,13,1096.7,26,False,False,False,23.7
+Kallumukku,village,76.335733,11.683422,15,1337.1,15,False,True,False,23.6
+Pattavayal,village,76.362788,11.576651,14,1248.9,2,False,True,False,23.6
+(unnamed),village,76.842762,11.383788,17,1663.4,74,False,True,False,23.2
+Ambalamoola,village,76.323955,11.577716,15,1509.8,0,False,False,False,23.1
+Ketti Palada,village,76.731421,11.354695,11,1123.4,24,False,False,False,23.0
+vadakkumthodi SC Colony,village,76.285671,11.375046,18,1809.4,0,False,True,False,23.0
+Kambatty,village,76.855094,11.452581,18,1837.4,23,False,False,False,22.9
+Boys Company,village,76.77481,11.364336,15,1578.0,62,False,False,False,22.9
+Kethorai,village,76.746012,11.352474,11,1177.1,32,False,False,False,22.8
+Santhoor,village,76.725678,11.37667,11,1172.5,37,False,True,False,22.8
+Kolimalai,village,76.713187,11.353886,10,1059.8,11,False,True,False,22.8
+Yellanalli,village,76.744002,11.378205,14,1540.0,25,False,True,False,22.7
+Manthada,village,76.724665,11.388339,13,1482.8,41,False,True,False,22.6
+Dhodani,village,76.733131,11.353514,11,1249.6,31,False,True,False,22.6
+Kattery Hatty,village,76.727915,11.341687,10,1142.8,62,False,True,False,22.5
+Aanappara,hamlet,76.256681,11.419509,14,1616.1,0,False,True,False,22.5
+Pedathalla,village,76.822971,11.432378,15,1724.4,22,False,False,False,22.5
+Udhagamandalam,town,76.70305,11.412677,31,2801.9,39,False,True,False,22.4
+Ketti Odayaratty,village,76.738801,11.358372,11,1355.4,19,False,False,False,22.3
+Bitherkad,village,76.377978,11.565624,16,1952.0,2,False,False,False,22.1
+Karakolly,village,76.294155,11.544953,9,1132.3,1,False,False,False,22.1
+Pungampalayam,village,76.92155,11.241512,10,1355.0,0,False,False,False,21.9
+Patakarimbu,hamlet,76.357744,11.267566,16,2043.6,0,False,True,False,21.8
+Thernal Nagar,village,76.743675,11.389619,19,2289.7,34,False,True,False,21.8
+vada mangalakarai,village,76.93954,11.280135,10,1381.1,2,False,False,False,21.8
+Naduhatty,village,76.731753,11.3422,10,1378.8,63,False,True,False,21.8
+Pudu Line,village,76.729789,11.387512,14,1866.8,36,False,True,False,21.8
+(unnamed),town,76.793182,11.350257,15,1981.8,126,False,True,False,21.7
+Vazhaithottam,village,76.697216,11.529567,38,3364.0,170,False,True,False,21.6
+Thooratty,village,76.733962,11.342314,10,1562.3,65,False,True,False,21.3
+othimalai,hamlet,77.092392,11.365009,8,1235.1,0,False,False,False,21.3
+Nambiarkunnu,village,76.320987,11.585325,14,2047.5,0,False,True,False,21.2
+Irupathezhamkulam SC ST colony,hamlet,76.274755,11.377983,18,2442.0,0,False,True,False,21.1
+Ketti Valley,village,76.73123,11.379906,11,1757.9,34,False,True,False,21.1
+Nelliyalam,village,76.362437,11.533208,14,2091.6,2,False,False,False,21.1
+Dhenallai,village,76.739824,11.350201,11,1768.3,43,False,True,False,21.0
+Nadugani,village,76.411185,11.470707,7,1209.6,3,False,True,False,20.9
+Devanapuram,village,76.886204,11.242209,7,1189.5,0,False,True,False,20.9
+Nellikuth ST Colony,village,76.355649,11.351954,10,1690.9,0,False,True,False,20.9
+Kolapalli,village,76.328776,11.525689,9,1517.9,0,False,False,False,20.9
+Lovedale,village,76.702043,11.376699,8,1434.2,30,False,False,False,20.7
+Karikunnu Colony,hamlet,76.342076,11.33259,17,2502.1,0,False,True,False,20.7
+vadavalli,village,77.007251,11.24966,6,1070.5,0,False,False,False,20.7
+Ketti Shortcut,village,76.73862,11.382484,14,2254.1,29,False,True,False,20.6
+Rajkumar Nagar,village,76.734329,11.382479,13,2131.2,34,False,True,False,20.6
+Karappuram,village,76.333099,11.325532,12,2024.4,0,False,True,False,20.6
+Thekkodi ST Colony,village,76.354605,11.333518,16,2428.8,0,False,True,False,20.6
+Adhimadhayanur,village,76.806951,11.18753,6,1138.6,0,False,True,False,20.5
+Kalattiyur,village,76.974415,11.225689,7,1334.5,1,False,False,False,20.5
+Adhimadhayanur,village,76.807316,11.187732,6,1150.9,0,False,True,False,20.4
+Banagudi,village,76.865283,11.391834,7,1363.5,43,False,True,False,20.4
+Hullada,village,76.736358,11.380742,13,2259.9,28,False,True,False,20.3
+senni veeraam palayam,village,76.997219,11.238754,6,1184.0,0,False,False,False,20.3
+Mettuppalayam,town,76.940539,11.294401,8,1580.4,4,False,False,False,20.3
+Pethikuttai,village,77.075057,11.367606,8,1641.1,0,False,True,False,20.1
+Periyathottam pudur,village,77.063985,11.352038,8,1660.9,0,False,True,False,20.0
+Periyathottam pudur,village,77.064114,11.351895,8,1682.1,0,False,True,False,20.0
+Athigaratty,village,76.697059,11.335202,9,1864.2,9,False,True,False,19.9
+karichipalayam,village,77.004381,11.230527,5,1132.7,1,False,False,False,19.8
+kurukkilipalayam,village,77.07823,11.238661,6,1396.9,0,False,False,False,19.7
+Devala,village,76.380034,11.473561,5,1158.4,1,False,True,False,19.7
+Chikka Elachatti,hamlet,76.728978,11.65343,5,1152.1,1,False,True,False,19.7
+UppuPallam,village,76.924593,11.305481,7,1613.6,7,False,True,False,19.6
+Ithalar,village,76.638023,11.342805,9,1991.2,7,False,True,False,19.5
+Irumborai,village,77.095347,11.347342,5,1259.1,0,False,False,False,19.4
+kolacombay,village,76.742309,11.287679,7,1708.9,337,False,True,False,19.4
+Athipalli,village,76.488794,11.524,14,2642.0,18,False,False,False,19.4
+onnipalayam,village,77.001743,11.207563,5,1247.8,2,False,False,False,19.4
+Ayyankolly,village,76.310423,11.556424,13,2546.3,1,False,False,False,19.4
+Muttinadu,village,76.705201,11.341983,9,2069.1,31,False,True,False,19.3
+Thenponmudi,village,77.014246,11.285065,5,1338.3,0,False,False,False,19.2
+Coonoor,town,76.796528,11.345945,11,2362.6,134,False,True,False,19.2
+Thepakkadu,village,76.582441,11.58039,6,1594.1,145,False,True,False,19.1
+kalipalayam,village,76.989394,11.178054,7,1779.2,2,False,False,False,19.1
+Sundakorai,village,76.821242,11.200175,7,1834.3,0,False,False,False,19.0
+Musambari,village,76.740926,11.274685,9,2158.2,343,False,True,False,19.0
+Akambadam,village,76.208727,11.3108,6,1652.1,2,False,False,False,18.9
+Aravenu,village,76.874019,11.408855,7,1872.4,36,False,False,False,18.9
+Sellappanur,village,76.904318,11.242937,8,2083.6,0,False,False,False,18.8
+Bhaviyur,hamlet,76.966775,11.419551,15,2972.8,1,False,True,False,18.7
+Kendepalayam,village,76.893638,11.246127,8,2099.3,0,False,False,False,18.7
+Omnagar,hamlet,76.895134,11.459877,11,2536.3,12,False,False,False,18.7
+Bellapalayam,village,77.017863,11.297941,6,1718.8,0,False,False,False,18.7
+Hosahatty,village,76.932489,11.446154,16,3111.4,2,False,True,False,18.6
+Jadayampalayam,village,76.980235,11.295588,7,1957.6,0,False,False,False,18.6
+Chinna Puthur,village,77.01781,11.234302,4,1250.7,0,False,False,False,18.6
+mudukkanthurai,village,77.034563,11.271882,7,2003.6,0,False,False,False,18.5
+Erathangi Colony,village,76.334169,11.334455,13,2872.8,0,False,True,False,18.4
+Alangombu,village,76.9948,11.310209,6,1841.7,0,False,True,False,18.4
+Pathirippadam SC Colony,hamlet,76.283684,11.365445,13,2862.7,0,False,False,False,18.4
+Pattakaranur,village,77.018296,11.283295,6,1821.8,0,False,False,False,18.4
+Pathirippadam ST Colony,hamlet,76.280238,11.366181,13,2960.6,0,False,True,False,18.2
+mongampalayam,village,76.996404,11.260656,10,2617.0,0,False,False,False,18.1
+onnipalayam pudur,village,77.00273,11.214307,5,1683.3,1,False,False,False,18.1
+Thimmampalayam Pudur,village,76.932561,11.236703,8,2326.3,0,False,False,False,18.0
+Pothukal,village,76.252673,11.404111,16,3299.0,0,False,True,False,18.0
+Therampalayam,village,76.997981,11.272505,6,1943.8,0,False,False,False,18.0
+mongampalayam,village,76.996275,11.260898,10,2647.4,0,False,False,False,18.0
+Bujanganur,village,76.891284,11.226467,5,1759.2,0,False,False,False,17.9
+Molapalayam,village,77.079002,11.115565,3,1185.3,0,False,False,False,17.8
+Tholampalayam,village,76.831631,11.17926,3,1171.5,0,False,True,False,17.8
+Bandipura,hamlet,76.628574,11.666271,6,2016.2,48,False,True,False,17.8
+medur,village,76.87547,11.221693,4,1535.8,0,False,False,False,17.7
+Veppampallam Pudur,village,77.020272,11.256276,7,2248.5,0,False,False,False,17.7
+Kembanur,village,76.900169,11.242739,8,2480.3,0,False,False,False,17.6
+Kallipalayam,village,77.063837,11.11603,3,1244.6,0,False,False,False,17.6
+Madappanur,village,76.898489,11.245458,8,2516.4,0,False,False,False,17.5
+(unnamed),hamlet,76.704911,11.658373,8,2518.1,2,False,True,False,17.5
+Mutorai Palada,village,76.666204,11.37063,14,3287.9,7,False,False,False,17.5
+Saalaiyur,village,76.895101,11.231333,5,1927.8,0,False,False,False,17.4
+Kariyanur,village,77.07637,11.326061,5,1921.4,0,False,False,False,17.4
+Kundakere,village,76.787645,11.690434,6,2158.6,0,False,True,False,17.4
+saalaiyur,village,76.895032,11.231421,5,1918.2,0,False,False,False,17.4
+Poorandampalayam,village,77.087434,11.115687,3,1335.1,0,False,False,False,17.3
+Kinnakorai,village,76.664879,11.222806,8,2578.6,8,False,True,False,17.3
+Thimmanur,village,77.06731,11.332494,5,1966.3,0,False,False,False,17.3
+Thorapally,village,76.493205,11.501226,12,3169.7,8,False,True,False,17.2
+Kasturiba Nagar,hamlet,76.894281,11.457848,8,2615.3,15,False,False,False,17.2
+Cheeral,village,76.313667,11.608092,5,2028.6,0,False,True,False,17.1
+Mettupalayam,town,76.935655,11.305936,7,2477.3,6,False,True,False,17.1
+Poongulamkai Colony,hamlet,76.330755,11.332289,9,2803.5,0,False,False,False,17.1
+Thazhekaukkad ST Colony,hamlet,76.287862,11.362909,10,2988.9,0,False,False,False,17.0
+Muthukallur,village,76.826406,11.206398,6,2299.8,0,False,True,False,17.0
+Theyyathumpadam ST Colony,hamlet,76.288245,11.362987,10,2971.2,0,False,False,False,17.0
+Illikkad ST Colony,hamlet,76.311045,11.368151,10,2974.8,0,False,False,False,17.0
+Nilambur,town,76.240739,11.286508,6,2335.1,5,False,False,False,16.9
+Mangala,village,76.667526,11.649996,5,2103.4,21,False,True,False,16.9
+Ilupanatham,village,77.059028,11.32917,5,2120.0,0,False,False,False,16.8
+Karbetta,village,76.873376,11.428557,4,1837.6,35,False,False,False,16.8
+Marudur,village,76.906573,11.234672,7,2566.6,0,False,False,False,16.8
+Thuthrumattam,village,76.732019,11.287222,8,2816.2,336,False,True,False,16.6
+Gudalur,town,76.49239,11.499242,12,3372.2,7,False,True,False,16.6
+Marudur,village,76.906095,11.234272,7,2633.0,0,False,False,False,16.6
+Mattakandy,village,76.656517,11.273354,4,1961.9,7,False,False,False,16.5
+Tuttapallam,village,76.887611,11.391704,6,2494.0,29,False,True,False,16.4
+Odanthurai,village,76.91905,11.31334,5,2284.7,10,False,True,False,16.3
+Kundah Thuneri,village,76.653168,11.271036,4,2012.2,5,False,False,False,16.3
+Kaggula,village,76.896544,11.456127,8,2926.3,14,False,False,False,16.2
+Maguvinahalli,hamlet,76.651913,11.697602,6,2600.1,31,False,True,False,16.1
+akkarai sengamppalli,village,77.081612,11.325346,3,1742.2,0,False,False,False,16.1
+Athikadavu,village,76.755783,11.21361,5,2396.6,73,False,True,False,16.0
+Pothukolly,village,76.26872,11.538729,3,1792.9,1,False,False,False,15.9
+Gandhipuram,village,76.797526,11.335803,11,3476.7,132,False,True,False,15.9
+Nellithurai,village,76.885811,11.285525,5,2430.1,2,False,True,False,15.9
+Manjur,village,76.645297,11.271605,3,1799.7,6,False,False,False,15.9
+Odanthurai,village,76.929221,11.31391,6,2679.0,8,False,True,False,15.8
+Chettipadam,hamlet,76.35731,11.243186,10,3378.2,0,False,True,False,15.8
+koolimunda SC Colony,village,76.303718,11.362614,8,3126.6,0,False,False,False,15.6
+Odiyanchola SC Colony,village,76.303296,11.362198,8,3155.2,0,False,False,False,15.6
+Athipalayam,village,76.980725,11.129142,4,2254.3,1,False,False,False,15.6
+Velliangadu,village,76.821831,11.212895,8,3178.8,0,False,True,False,15.5
+Mothepalayam,village,76.975037,11.308315,7,2982.9,1,False,True,False,15.5
+Lakshamveed Colony,hamlet,76.317333,11.273466,8,3196.5,0,False,True,False,15.4
+periya puthur,village,77.028113,11.227365,5,2613.9,0,False,False,False,15.3
+Govindanaikenpalayam,village,76.976305,11.128173,4,2381.4,1,False,False,False,15.2
+Kembanaikanpalayam,village,77.071647,11.208357,2,1609.6,0,False,False,False,15.2
+Emerald,village,76.624707,11.320522,7,3101.0,11,False,True,False,15.2
+Pogalur,village,77.03823,11.257858,6,2891.7,0,False,False,False,15.2
+Rajnagar,hamlet,76.890274,11.450808,6,2971.9,22,False,False,False,15.0
+Yalachetti,village,76.705754,11.64697,6,2944.2,2,False,True,False,15.0
+Sirumugai,village,77.00665,11.318228,5,2773.3,0,False,False,False,14.9
+Kariampalayam,village,77.077854,11.2019,3,2155.2,0,False,False,False,14.9
+Mailampara Colony,hamlet,76.314475,11.275181,8,3360.6,3,False,True,False,14.9
+Veerapandi Pirivu,village,76.951615,11.169602,4,2493.8,1,False,False,False,14.9
+Dayanur,village,76.870251,11.210498,4,2492.4,0,False,False,False,14.9
+Masinagudi,village,76.638966,11.56829,1,1110.1,296,False,True,False,14.8
+Vazhikkadavu,village,76.327499,11.368769,10,3701.8,0,False,True,False,14.8
+Denadu hatty,village,76.671986,11.285024,5,2836.7,10,False,False,False,14.7
+Katteri,village,76.788608,11.333539,11,3904.8,109,False,True,False,14.6
+Marapalam,hamlet,76.817728,11.335188,10,3849.6,180,False,True,False,14.4
+Karakkod Mukkam ST Colony,hamlet,76.312199,11.364355,7,3387.8,0,False,False,False,14.3
+Anil Kadu,village,76.887458,11.433625,7,3435.5,32,False,False,False,14.2
+Mulli,village,76.730595,11.214608,5,3077.4,66,False,True,False,13.9
+Kanuvaipalayam,village,76.895777,11.21646,4,2862.7,0,False,True,False,13.8
+Selas,village,76.747946,11.327907,8,3756.6,149,False,True,False,13.8
+Erumad,village,76.258872,11.568791,3,2532.7,2,False,False,False,13.7
+Kariyamalai,village,76.643774,11.264742,3,2574.3,5,False,False,False,13.6
+Bhoomikkuth Colony,hamlet,76.310315,11.278098,7,3634.9,3,False,True,False,13.6
+Nalamkuttykunnu Colony,village,76.33553,11.356999,5,3189.2,0,False,True,False,13.6
+Kargudi,village,76.557282,11.573412,7,3670.0,111,False,True,False,13.5
+Kuttimunda,hamlet,76.273169,11.340742,5,3228.6,0,False,False,False,13.5
+Kayyunni,village,76.264092,11.538534,2,2239.0,1,False,False,False,13.3
+Karuvarakundu,village,76.342246,11.12509,2,2248.2,4,False,False,False,13.3
+Bengal hatty,village,76.677997,11.288853,5,3295.7,10,False,False,False,13.3
+Chungathara,village,76.275658,11.333781,4,3029.7,1,False,True,False,13.3
+Ketchan kinaru,village,77.025839,11.250496,2,2269.1,0,False,False,False,13.2
+Ketchan kinaru,village,77.025985,11.250452,2,2280.4,0,False,False,False,13.2
+Poongode,village,76.280193,11.168354,1,1727.1,0,False,False,False,13.0
+Jakkahalli,hamlet,76.68147,11.645349,3,2784.5,10,False,True,False,13.0
+Vaniyambalam,village,76.260114,11.18999,1,1743.5,0,False,False,False,12.9
+Kakkapparutha SC Colony,village,76.298114,11.356273,6,3676.4,0,False,False,False,12.8
+Mynala Hatty,village,76.677708,11.284735,5,3461.4,10,False,False,False,12.8
+Kil Kundah,village,76.642383,11.26228,3,2865.0,5,False,True,False,12.7
+Hiriyaseegai,village,76.681005,11.230716,6,3804.2,2,False,True,False,12.5
+Edakkara,village,76.304749,11.356414,6,3816.4,0,False,False,False,12.4
+Pandalur,town,76.339823,11.486876,5,3636.7,0,False,True,False,12.3
+Maasikandi hatty,village,76.680227,11.286861,5,3612.4,10,False,False,False,12.3
+Kechigatty,village,76.633286,11.263193,3,3073.3,4,False,True,False,12.1
+Sultan Bathery,town,76.259553,11.663189,8,4327.2,2,False,True,False,12.0
+Cherambadi,village,76.267096,11.516657,3,3122.3,1,False,True,False,12.0
+Manjacombai,village,76.690527,11.281963,7,4206.8,82,False,True,False,11.9
+Karulai Colony,hamlet,76.303222,11.28345,7,4226.0,3,False,True,False,11.8
+Cherangode,village,76.310243,11.512829,4,3554.1,0,False,True,False,11.7
+Bikketti,village,76.631432,11.249772,8,4522.7,15,False,True,False,11.5
+Kakkachi,village,76.740836,11.318685,5,3879.1,205,False,True,False,11.5
+Mugasi Semsampatti,village,77.038255,11.237293,3,3320.0,0,False,False,False,11.4
+Mellur hatty,village,76.696863,11.299361,3,3331.7,178,False,True,False,11.3
+Chulliyode,village,76.317445,11.257951,7,4408.8,0,False,True,False,11.3
+Bellada,village,76.7037,11.303246,3,3401.7,211,False,True,False,11.1
+Kerapadu,village,76.624492,11.265683,3,3409.5,4,False,True,False,11.1
+Karulai,village,76.301421,11.290495,6,4362.7,3,False,True,False,10.8
+Araihatty,village,76.717558,11.292988,6,4423.0,258,False,True,False,10.6
+(unnamed),hamlet,76.795013,11.314946,4,3923.7,103,False,True,False,10.6
+Manalvayal,village,76.247556,11.551004,2,3210.9,1,False,False,False,10.4
+Colony,hamlet,76.605277,11.336985,4,3964.5,16,False,True,False,10.4
+Doddakombai,village,76.624369,11.25561,5,4295.9,13,False,True,False,10.3
+Mannathivayal,village,76.253516,11.528887,3,3659.8,1,False,True,False,10.3
+Kottathara,village,76.685612,11.13288,1,2682.3,1,False,False,False,10.1
+Annadhasampalayam,village,77.029141,11.33034,3,3766.6,0,False,True,False,10.0
+(unnamed),hamlet,76.803457,11.308144,3,3833.0,90,False,True,False,9.8
+Illuppanatham,village,77.019959,11.330928,5,4559.2,0,False,True,False,9.5
+Choladi,hamlet,76.246922,11.5281,3,4000.5,1,False,True,False,9.3
+Balacola,village,76.696353,11.28882,4,4387.9,185,False,True,False,9.2
+Mellur Hosatty,village,76.704302,11.296372,3,4040.7,219,False,True,False,9.2
+Burliar,village,76.848801,11.344041,3,4076.9,152,False,True,False,9.1
+Pazhoor,village,76.310452,11.629494,2,3719.9,1,False,True,False,8.9
+Mamaram,hamlet,76.918724,11.361887,3,4155.0,21,False,True,False,8.9
+Nambikolly,village,76.306904,11.635969,4,4527.5,1,False,True,False,8.8
+Keeranatham,village,76.994265,11.114151,2,3841.1,0,False,False,False,8.5
+(unnamed),hamlet,76.803199,11.31321,3,4384.6,109,False,True,False,8.2
+(unnamed),hamlet,76.60824,11.328354,3,4445.1,16,False,True,False,8.0
+(unnamed),hamlet,76.800613,11.317229,3,4542.0,113,False,True,False,7.7
+Mavanalla,village,76.674915,11.547883,1,3526.0,326,False,True,False,7.6
+Mavanalla,village,76.674916,11.547883,1,3526.1,326,False,True,False,7.6
+Thaloor,village,76.254286,11.584918,2,4155.8,1,False,False,False,7.5
+Kaniyapura,village,76.681899,11.632481,2,4202.8,32,False,True,False,7.4
+Kurumbadi,village,76.834752,11.336946,2,4398.2,198,False,True,False,6.8
+Santhi Nagar,village,76.259825,11.209237,1,3819.6,0,False,False,False,6.7
+Ambalavayal,village,76.212018,11.619203,2,4432.9,2,False,False,False,6.7
+Pudur,village,76.744951,11.13277,1,3809.5,9,False,True,False,6.7
+Kunnathur,village,77.048232,11.152231,1,3839.2,0,False,False,False,6.6
+lingapuram,village,77.001629,11.351623,1,3917.3,0,False,True,False,6.4
+Wandoor,town,76.235991,11.195534,1,3978.1,0,False,False,False,6.2
+Agali,village,76.654763,11.10571,2,4798.1,0,False,False,False,5.6
+Meenamalai,village,76.710798,11.298862,1,4290.2,225,False,True,False,5.3
+Cherukode,village,76.228791,11.161345,1,4373.3,0,False,False,False,5.0
+Anaikatti,village,76.748041,11.116125,1,4470.1,12,False,True,False,4.8
+Muppini,village,76.293884,11.348338,1,4533.2,0,False,False,False,4.6
+(unnamed),hamlet,76.798489,11.31989,1,4583.1,115,False,True,False,4.4
+(unnamed),hamlet,76.810956,11.314273,1,4700.9,132,False,True,False,4.1
+Vadakkekai ST Colony,village,76.299083,11.312444,1,4796.4,3,False,True,False,3.8
+Kottoor,village,76.233901,11.565856,1,4851.3,1,False,False,False,3.6
+(unnamed),hamlet,76.815012,11.314209,1,4854.3,150,False,True,False,3.6
+Ambukuthy,hamlet,76.242974,11.621739,1,4848.0,3,False,True,False,3.6
+Chulliyode,village,76.255119,11.601259,1,4877.9,3,False,True,False,3.5
+(unnamed),village,76.325848,11.188956,0,5804.2,0,False,True,False,0.0
+Kalikavu,town,76.322899,11.170587,0,6221.5,4,False,True,False,0.0
+Koliyadi,village,76.277323,11.634636,0,5575.8,3,False,True,False,0.0
+Iringattiri,village,76.31497,11.100636,0,5179.1,4,False,False,False,0.0
+Sispara,hamlet,76.439461,11.202721,0,6555.2,0,False,True,False,0.0
+Madakkara,village,76.274917,11.619314,0,5217.4,3,False,True,False,0.0
+Cheengavallam,hamlet,76.203616,11.59115,0,7675.6,0,False,False,False,0.0
+Guruvegowdanhundi,village,76.694595,11.600761,0,6321.7,68,False,True,False,0.0
+Tuvvur,village,76.286254,11.112491,0,7348.7,4,False,False,False,0.0
+Kallar,village,76.8825,11.3378,0,5116.1,89,False,True,False,0.0
+Pookkottumpadam,village,76.300183,11.243993,0,6803.5,0,False,False,False,0.0
+Palaiya,village,76.892802,11.675867,0,7708.3,0,False,False,False,0.0
+Chitragiri,hamlet,76.226826,11.542845,0,5598.4,1,False,True,False,0.0
+(unnamed),hamlet,76.820912,11.320522,0,5518.2,171,False,True,False,0.0
+Padivayal,hamlet,76.203518,11.548338,0,8020.2,0,False,False,False,0.0
+Vaduvanchal,village,76.222698,11.554835,0,5900.8,0,False,False,False,0.0
+(unnamed),village,76.320203,11.185192,0,6000.9,0,False,True,False,0.0

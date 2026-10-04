@@ -1,0 +1,8 @@
+feature,operator,n
+villages,$geoWithin,79
+sightings (precise),$geoWithin,125
+fire_hotspots,$geoWithin,1460
+farmland,$geoIntersects,75
+transport: road,$geoIntersects,1959
+transport: track,$geoIntersects,256
+transport: railway,$geoIntersects,4
