@@ -20,6 +20,8 @@ cache/
 data/raw/
 data/processed/
 outputs/bench_*
+# 10 MB and regenerated in seconds by scripts/build_map.py; GitHub cannot render it
+outputs/forestgeo_map.html
 
 # Editor / OS
 .vscode/
