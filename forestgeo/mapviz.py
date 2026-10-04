@@ -57,14 +57,45 @@ def base_map() -> folium.Map:
     return m
 
 
+# Most OSM features have no name= tag at all: only 11.8% of forests, 13.4% of farmland
+# and 4.0% of transport carry one. Mappers trace a forest and tag it natural=wood
+# without naming it - one unnamed wood here covers 650 km2. So a tooltip showing only
+# "name" is blank for the large majority. These fields let an unnamed feature describe
+# itself from its own tags instead.
+DESCRIBE_WITH: dict[str, tuple[str, ...]] = {
+    "forests": ("landuse", "natural"),
+    "water_bodies": ("water", "natural"),
+    "farmland": ("landuse",),
+    "protected_areas": ("protect_class",),
+    "rivers": ("waterway",),
+    "transport": ("highway", "railway"),
+    "derived_zones": ("zone_type",),
+}
+
+
+def _label(doc: dict, collection: str) -> str:
+    """The feature's name, or a description built from its tags when it has none."""
+    name = doc.get("name")
+    if name:
+        return str(name)
+    for field in DESCRIBE_WITH.get(collection, ()):
+        value = doc.get(field)
+        if value:
+            return f"unnamed {str(value).replace('_', ' ')}"
+    return f"unnamed {collection.replace('_', ' ').rstrip('s')}"
+
+
 def _features(db: Database, collection: str, query: dict | None = None,
               fields: tuple[str, ...] = ()) -> list[dict]:
     """Read documents and wrap them as GeoJSON Features for Folium."""
-    proj = {"geometry": 1, **{f: 1 for f in fields}}
+    extra = DESCRIBE_WITH.get(collection, ())
+    proj = {"geometry": 1, "name": 1,
+            **{f: 1 for f in fields}, **{f: 1 for f in extra}}
     out = []
     for d in db[collection].find(query or {}, proj):
-        props = {f: d.get(f) for f in fields}
+        props = {f: d.get(f) for f in fields if f != "name"}
         props = {k: (v if v is not None else "-") for k, v in props.items()}
+        props["label"] = _label(d, collection)
         out.append({"type": "Feature", "geometry": d["geometry"],
                     "properties": props})
     return out
@@ -78,10 +109,11 @@ def add_polygon_layer(m, db, collection, name, style_key=None, query=None,
     style = STYLE.get(style_key or collection, {"color": "#555", "weight": 1,
                                                 "fillOpacity": 0.2})
     fg = folium.FeatureGroup(name=f"{name} ({len(feats)})", show=show)
+    tip = ["label"] + [f for f in fields if f != "name"]
     folium.GeoJson(
         {"type": "FeatureCollection", "features": feats},
         style_function=lambda _f, s=style: dict(s, fillColor=s["color"]),
-        tooltip=folium.GeoJsonTooltip(fields=list(fields)),
+        tooltip=folium.GeoJsonTooltip(fields=tip, aliases=["", *tip[1:]]),
     ).add_to(fg)
     fg.add_to(m)
     return len(feats)
@@ -104,7 +136,8 @@ def add_transport(m, db, show=False) -> int:
             {"type": "FeatureCollection", "features": feats},
             style_function=lambda _f, c=colour: {"color": c, "weight": 1.5,
                                                  "opacity": 0.75},
-            tooltip=folium.GeoJsonTooltip(fields=["name", "kind", "length_km"]),
+            tooltip=folium.GeoJsonTooltip(fields=["label", "kind", "length_km"],
+                                          aliases=["", "kind", "length_km"]),
         ).add_to(fg)
         fg.add_to(m)
         total += len(feats)

@@ -2721,6 +2721,45 @@ Drawing a displaced elephant record as an ordinary point would imply a precision
 data does not have. A separate, labelled, off-by-default layer shows the records without
 making a false claim.
 
+**Most features have no name, so they describe themselves instead.**
+
+Hovering the first version of the map showed a name on only a handful of features. That
+is not a bug in the tooltip - it is what OSM contains:
+
+| layer | carries a `name` tag |
+|---|---|
+| villages | 94.8% |
+| protected_areas | 88.9% |
+| rivers | 38.9% |
+| water_bodies | 24.0% |
+| farmland | 13.4% |
+| **forests** | **11.8%** (14 of 119) |
+| **transport** | **4.0%** |
+
+Mappers trace a forest and tag it `natural=wood` without naming it; one unnamed wood in
+this data covers 650 km². A tooltip bound to `name` is therefore blank for the large
+majority of features.
+
+The fix is to fall back to the feature's own classifying tags:
+
+```python
+def _label(doc, collection):
+    name = doc.get("name")
+    if name:
+        return str(name)
+    for field in DESCRIBE_WITH.get(collection, ()):
+        value = doc.get(field)
+        if value:
+            return f"unnamed {str(value).replace('_', ' ')}"
+    return f"unnamed {collection.replace('_', ' ').rstrip('s')}"
+```
+
+So an unnamed polygon reads "unnamed wood" or "unnamed reservoir", and an unnamed road
+reads "unnamed tertiary" - which is more informative than a name would often have been.
+This is worth noting in the report as a property of crowd-sourced data: completeness
+varies by attribute, and a visualisation has to degrade gracefully rather than show
+blanks.
+
 **The legend sits bottom-right, and that is not a styling preference.**
 
 ```python
@@ -2798,6 +2837,15 @@ MongoDB require. Folium's `location=` and `fit_bounds()` are the single exceptio
 follow the conventional spoken order. `folium.GeoJson()` does not flip, since it consumes
 GeoJSON directly. Every flip is marked in the code, because confusing the two produces a
 map in the wrong hemisphere with no error.
+
+**"Hovering the map shows a name for some features but not others. Why?"**
+Because most OpenStreetMap features genuinely have no `name` tag - only 11.8% of forests
+and 4.0% of transport features carry one. It is a property of the source data, not of
+the map. Features without a name now fall back to a description built from their own
+classifying tags, so an unnamed polygon reads "unnamed wood" or "unnamed reservoir"
+rather than showing a blank. It is a good illustration of crowd-sourced data: coverage
+is good, attribute completeness is uneven, and anything built on it has to degrade
+gracefully.
 
 **"How did you decide where to put the legend?"**
 By finding out what was already there. Leaflet positions its controls in the four
