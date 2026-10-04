@@ -11,7 +11,7 @@ from forestgeo.db import get_db, safe_uri
 
 
 
-#check teh project is sane thsi is a verification about teh crs utm for given lon lang in bbox
+#check the project is sane this is a verification about the crs utm for given lon lang in bbox
 
 def check_reprojection() -> bool:
     """Catch a swapped lon/lat: the UTM result must land in zone 43N's plausible range."""
@@ -23,7 +23,7 @@ def check_reprojection() -> bool:
           f"  {'ok' if ok else 'SWAPPED?'}")
     return ok
 
-#chck crs is right
+#check crs is right
 def check_crs() -> bool:
     """CRS_METRIC must be the UTM zone that actually contains the region centre."""
     lon, lat = config.bbox_centre()
