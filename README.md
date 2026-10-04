@@ -1,5 +1,7 @@
 # ForestGeo Risk Analyser
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NithiishSD/bigdata_spatial_project/blob/main/notebooks/forestgeo_demo.ipynb)
+
 Forested hill regions face overlapping pressures from wildfires, roads, settlements and wildlife
 movement, yet the data describing them usually sits in separate sources. **ForestGeo Risk Analyser**
 brings these datasets together in a single **MongoDB Atlas** spatial database and uses spatial queries
