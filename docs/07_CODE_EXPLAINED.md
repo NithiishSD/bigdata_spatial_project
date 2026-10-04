@@ -2434,6 +2434,43 @@ and two different representations.
 Inside the critical zone: 79 villages, 1,460 hotspots, 125 precise sightings, 1,959
 roads, 256 tracks, 4 railway segments and 75 farmland parcels.
 
+### Chattiness, and why the same query is 300x slower on Atlas
+
+The readable implementation asks MongoDB six questions **per village**: two
+`count_documents` calls, one `$geoNear`, and three zone-membership tests. For 421
+villages that is **2,526 round trips**.
+
+Locally, at roughly 0.3 ms per round trip, that costs under a second and nobody notices.
+Against the Atlas cluster, at the ~95 ms round trip measured in the benchmark phase, the
+same code spends **about four minutes waiting** — and almost none of it is query time.
+
+The fix is not a faster query. Every individual query was already fast. The fix is to
+stop asking so many:
+
+| what | per-village form | batched form |
+|---|---|---|
+| fetch the villages | 1 | 1 |
+| zone membership (3 zones) | 3 × 421 = 1,263 | **3** — one `$geoWithin` per zone returns every village inside it |
+| hotspot count + nearest | 2 × 421 = 842 | **1** — fetch the 1,564 hotspots once, measure locally |
+| sighting count | 421 | **1** — fetch the precise sightings once |
+| **total round trips** | **2,526** | **6** |
+
+Both paths are kept. `batched=False` is clearer to read and demonstrates
+`$geoWithin` + `$centerSphere` and `$geoNear` directly, which is why it exists;
+`batched=True` is the default because it is what makes the cloud demo usable.
+
+Two details worth noting about the batched form:
+
+- Zone membership stays **entirely in MongoDB**. The spatial predicate is unchanged —
+  it is simply asked once for all villages instead of once per village.
+- Distances move to Shapely in the metric CRS. `$centerSphere` measures on a sphere
+  while UTM measures on a plane, so the two disagree slightly; over a 5 km radius at this
+  latitude the difference is well under a metre, and the counts are identical.
+
+The general lesson is one the benchmark phase measures and this phase pays for: **over a
+network, the number of round trips matters more than the cost of each one.** A query that
+is free locally can be unusable in the cloud without a single line of it being slow.
+
 ### Interview answers — `cross_theme.py`
 
 **"How is the risk score constructed, and can you defend the weights?"**
@@ -2455,6 +2492,16 @@ It was checked against MongoDB independently. Counting villages inside the
 Shapely-computed critical zone gives 79; asking MongoDB for villages inside both source
 zones using two `$geoWithin` predicates combined with `$and` also gives 79. Two
 different engines, two different representations, the same answer.
+
+**"Your risk query was fast locally and slow on Atlas. What changed?"**
+Nothing about the queries — only the distance to the server. The readable implementation
+makes six round trips per village, so 2,526 in total. At a sub-millisecond local round
+trip that is under a second; at the ~95 ms round trip to Atlas it is about four minutes,
+essentially all of it waiting. The fix was to batch: resolve zone membership with one
+`$geoWithin` per zone instead of one per village, and fetch the hotspot and sighting
+point sets once rather than querying per village. Six round trips instead of 2,526, with
+identical results. The lesson is that over a network, chattiness costs more than query
+time.
 
 **"Why is counting done with `$centerSphere` rather than `$nearSphere`?"**
 `$nearSphere` sorts by distance and cannot be used inside `count_documents()` — counting
@@ -2674,6 +2721,30 @@ Drawing a displaced elephant record as an ordinary point would imply a precision
 data does not have. A separate, labelled, off-by-default layer shows the records without
 making a false claim.
 
+**The legend sits bottom-right, and that is not a styling preference.**
+
+```python
+position: fixed; bottom: 26px; right: 12px;
+```
+
+The obvious place for a legend is bottom-left. That corner is already taken:
+`TimestampedGeoJson` puts its **time slider and speed control** there, and
+`control_scale=True` adds the scale bar beside it. A legend in that corner silently
+covers the fire timeline - the single thing the map exists to show - and the only clue
+is a stray scrollbar peeking out from behind it.
+
+Leaflet's four corners end up allocated like this:
+
+| corner | occupant |
+|---|---|
+| top-left | zoom control |
+| top-right | layer control |
+| bottom-left | **time slider + scale bar** |
+| bottom-right | the legend |
+
+It is also wrapped in `<details>` so it folds away, and capped at `max-height: 45vh`
+with its own scrollbar so it can never swallow the map on a short screen.
+
 **Only main road classes are drawn.**
 
 ```python
@@ -2728,6 +2799,14 @@ follow the conventional spoken order. `folium.GeoJson()` does not flip, since it
 GeoJSON directly. Every flip is marked in the code, because confusing the two produces a
 map in the wrong hemisphere with no error.
 
+**"How did you decide where to put the legend?"**
+By finding out what was already there. Leaflet positions its controls in the four
+corners, and `TimestampedGeoJson` registers its time slider at bottom-left alongside the
+scale bar — so a legend placed there covered the fire timeline entirely. The only
+visible symptom was a scrollbar edge appearing from behind the legend. Bottom-right was
+the one free corner, and the legend is collapsible and height-capped so it cannot
+obscure the map on a small screen either.
+
 **"Why are obscured sightings on a separate layer?"**
 Because drawing them as ordinary points would assert a precision the data does not have —
 those locations are deliberately displaced by up to about 31 km. A separate, clearly
@@ -2781,29 +2860,31 @@ Run on 2026-10-04, local MongoDB 8.0.32, Python 3.14.
 
 ### Data
 
-| collection | geometry | raw | clean | note |
-|---|---|---|---|---|
-| villages | Point | 421 | 421 | 44 arrived as polygons → representative points |
-| transport | LineString | 37,666 | 37,665 | 13,830 km |
-| rivers | LineString | 2,057 | 2,057 | 2,769 km |
-| protected_areas | Polygon | 13 | **9** | 4 dropped: duplicates + sub-0.1 km² artefacts |
-| forests | Polygon | 132 | 119 | 3,521 km² clipped (54% of region) |
-| water_bodies | Polygon | 1,024 | 901 | 123 slivers below 25 m² |
-| farmland | Polygon | 812 | 811 | |
-| fire_hotspots | Point | 1,765 | 1,564 | 201 low-confidence dropped |
-| sightings | Point | 2,670 | 2,661 | 72 species; tiered by precision |
-| **total** | | **46,779** | **46,208** | **0 invalid, 0 rejected by MongoDB** |
+Three distinct counts, which an earlier draft of this table conflated — its "raw" column
+held post-deduplication numbers while its total held the pre-deduplication figure, so the
+column did not sum to its own total. `data_inventory.csv` reports what is in the raw
+files; `validation_report.csv` reports what enters cleaning, *after* duplicate OSM ids are
+removed on read.
 
-The reduction happens in two distinct steps, and the report should state both:
+| collection | geometry | raw file | after id dedupe | valid | note |
+|---|---|---|---|---|---|
+| villages | Point | 421 | 421 | 421 | 44 arrived as polygons → representative points |
+| transport | LineString | 37,814 | 37,666 | 37,665 | 13,830 km |
+| rivers | LineString | 2,078 | 2,057 | 2,057 | 2,769 km |
+| protected_areas | Polygon | 15 | 13 | **9** | 1 Point, 3 artefacts below 0.1 km² |
+| forests | Polygon | 167 | 132 | 119 | 3,521 km² clipped (54% of region) |
+| water_bodies | Polygon | 1,035 | 1,024 | 901 | 114 slivers below 25 m², 9 wrong family |
+| farmland | Polygon | 814 | 812 | 811 | |
+| fire_hotspots | Point | 1,765 | 1,765 | 1,564 | 201 low-confidence dropped |
+| sightings | Point | 2,670 | 2,670 | 2,661 | 72 species; tiered by precision |
+| **total** | | **46,779** | **46,560** | **46,208** | **0 invalid, 0 rejected by MongoDB** |
 
-| stage | features | removed |
-|---|---|---|
-| raw files on disk | 46,779 | — |
-| after deduplicating on the OSM `id` | 46,560 | 219 duplicates |
-| valid output | 46,208 | 352 by cleaning |
+Only the OSM layers shrink in the dedupe column: FIRMS and GBIF records carry their own
+identifiers and are deduplicated during the fetch instead.
 
-The 219 duplicates are the ones a layer receives when its tag spec lists several keys and
-Overpass returns the same element once per key. They never reach the database.
+The 219 features lost to deduplication are those a layer receives when its tag spec lists
+several keys and Overpass returns the same element once per key. They never reach the
+database.
 
 ### Derived zones (Shapely → MongoDB)
 

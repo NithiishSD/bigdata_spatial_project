@@ -232,15 +232,27 @@ def add_fire_timeline(m, db, show=True) -> int:
 
 
 def add_legend(m, counts: dict) -> None:
-    """A fixed HTML legend. Folium has no built-in legend widget."""
+    """A collapsible HTML legend. Folium has no built-in legend widget.
+
+    Placed BOTTOM-RIGHT, deliberately. The obvious spot is bottom-left, but
+    TimestampedGeoJson puts its time slider and speed control there, so a legend in
+    that corner silently covers the fire timeline - the one thing the map exists to
+    show. Leaflet's own controls occupy top-left (zoom), top-right (layers) and
+    bottom-left (time slider, scale bar), which leaves bottom-right.
+
+    It is wrapped in <details> so it can be folded away, and capped at 45% of the
+    viewport height with its own scrollbar so it can never cover the map on a short
+    screen.
+    """
     rows = "".join(
-        f"<div><span style='display:inline-block;width:12px;height:12px;"
-        f"background:{c};margin-right:6px;border:1px solid #666'></span>{label}</div>"
+        f"<div style='white-space:nowrap'><span style='display:inline-block;"
+        f"width:12px;height:12px;background:{c};margin-right:6px;"
+        f"border:1px solid #666;vertical-align:-1px'></span>{label}</div>"
         for label, c in [
-            ("village: high risk (>=75)", "#b71c1c"),
+            ("village: high risk (&ge;75)", "#b71c1c"),
             ("village: medium (50-74)", "#ef6c00"),
             ("village: low (25-49)", "#fbc02d"),
-            ("village: minimal (<25)", "#2e7d32"),
+            ("village: minimal (&lt;25)", "#2e7d32"),
             ("critical zone", "#b71c1c"),
             ("burn-risk footprint", "#d84315"),
             ("habitat block", "#004d40"),
@@ -248,16 +260,20 @@ def add_legend(m, counts: dict) -> None:
         ])
     summary = " &middot; ".join(f"{k}: {v:,}" for k, v in counts.items())
     html = f"""
-    <div style="position: fixed; bottom: 24px; left: 24px; z-index: 9999;
-                background: rgba(255,255,255,0.93); padding: 10px 12px;
-                border: 1px solid #999; border-radius: 4px;
-                font: 12px/1.5 system-ui, sans-serif; max-width: 290px;">
-      <div style="font-weight:600;margin-bottom:6px">{REGION_NAME} — fire, habitat
-        &amp; settlement risk</div>
-      {rows}
-      <div style="margin-top:6px;color:#555">Fire season {FIRE_SEASON[0]} to
-        {FIRE_SEASON[1]}</div>
-      <div style="margin-top:4px;color:#777;font-size:11px">{summary}</div>
+    <div style="position: fixed; bottom: 26px; right: 12px; z-index: 9999;
+                background: rgba(255,255,255,0.94); border: 1px solid #999;
+                border-radius: 4px; font: 12px/1.5 system-ui, sans-serif;
+                max-width: 270px; max-height: 45vh; overflow-y: auto;
+                box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
+      <details open style="padding: 8px 10px;">
+        <summary style="font-weight:600; cursor:pointer; outline:none">
+          {REGION_NAME} &mdash; legend
+        </summary>
+        <div style="margin-top:6px">{rows}</div>
+        <div style="margin-top:6px;color:#555">Fire season {FIRE_SEASON[0]} to
+          {FIRE_SEASON[1]}</div>
+        <div style="margin-top:4px;color:#777;font-size:11px">{summary}</div>
+      </details>
     </div>"""
     m.get_root().html.add_child(folium.Element(html))
 
